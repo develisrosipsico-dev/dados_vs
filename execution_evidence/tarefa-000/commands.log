@@ -1,0 +1,8 @@
+python3 -c "
+import os, sys, hashlib, json, glob
+import pymupdf
+...
+"
+./.venv/bin/pytest -v
+./.venv/bin/pytest --tb=no -q
+./.venv/bin/pytest -v > execution_evidence/tarefa-000/tests.log 2>&1

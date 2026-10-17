@@ -1,0 +1,14 @@
+{
+  "commands.log": {
+    "size": 191,
+    "sha256": "7266917dd4b31235347ac8750d685cbd7b2f13561d993861b3255bc8348ae824"
+  },
+  "execution.json": {
+    "size": 7137,
+    "sha256": "c3da56c101999bf31cd6ceacbfcb03aa94be5f8cb1fc6494b8ca3b37087e37ce"
+  },
+  "tests.log": {
+    "size": 8552,
+    "sha256": "65d5fe7f03283f867acc8aa66c6f37658eb455ffffc48d18a4bcf16a7f7bf97f"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "task": "tarefa-000",
+  "name": "Inventário e validação do ambiente local",
+  "status": "executed_and_persisted",
+  "timestamp": "2026-10-17T02:00:00Z",
+  "environment": {
+    "root_dir": "/Users/rodrigodevellis/dados_vs",
+    "python_executable": "/Users/rodrigodevellis/dados_vs/.venv/bin/python3",
+    "python_version": "3.12.10",
+    "pytest_executable": "/Users/rodrigodevellis/dados_vs/.venv/bin/pytest",
+    "git_head_commit": "1d2a616",
+    "git_reference_commit_requested": "cf9248a889305ffd920d71cbbd07317e959440a6",
+    "git_reference_commit_status": "not_in_local_git_history (local HEAD is 1d2a616, uncommitted changes present)"
+  },
+  "source_pdfs": {
+    "chapter_pdf": {
+      "path": "story-capitulo-1.pdf",
+      "pages": 18,
+      "size_bytes": 230391,
+      "sha256": "dabd10538ffdc866c6fa24187ffb1b9f784f647a01d5286a9c6a91cd7015633d"
+    },
+    "integral_pdf": {
+      "path": "corpora/story.pdf",
+      "pages": 493,
+      "size_bytes": 5937684,
+      "sha256": "5360f54ed5d6e27414e7d06ca915f113235c010f614cf363c0e36d74cea0c35b"
+    }
+  },
+  "corpora_inventory": {
+    "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3": {
+      "corpus_version": "corpus_9be43285a4ba3bc831b26b9e",
+      "version_tag": "0.2.3",
+      "status": "extracted_directory",
+      "is_most_recent": true,
+      "page_count": 18,
+      "documentary_status": "review_required",
+      "pending_reviews_count": 12,
+      "chunking_gate_allowed": false,
+      "files_present": [
+        "elements.jsonl",
+        "element_lineage.jsonl",
+        "lineage.jsonl",
+        "metadata.json",
+        "original.pdf",
+        "pages_raw.jsonl",
+        "paragraphs.jsonl",
+        "processing_log.jsonl",
+        "structure.json",
+        "validation_report.json",
+        "history/"
+      ]
+    },
+    "corpora/story-capitulo-1-revisao-documental-v0.2.0": {
+      "corpus_version": "corpus_d43918f06609b65f21f89425",
+      "version_tag": "0.2.0",
+      "status": "extracted_directory",
+      "is_most_recent": false,
+      "page_count": 18,
+      "documentary_status": "review_required",
+      "pending_reviews_count": 14,
+      "chunking_gate_allowed": false
+    },
+    "corpora/story-capitulo-1-corrigido": {
+      "corpus_version": "corpus_dac1ff497687e07ee803e02a",
+      "version_tag": "0.1.1",
+      "status": "extracted_directory",
+      "is_most_recent": false,
+      "page_count": 18
+    },
+    "corpora/story-capitulo-1-processado": {
+      "corpus_version": "corpus_d62de7e1045d677ff254cc64",
+      "version_tag": "0.1.0",
+      "status": "extracted_directory",
+      "is_most_recent": false,
+      "page_count": 18
+    }
+  },
+  "zip_archives": {
+    "story-capitulo-1-revisao-documental-v0.2.3.zip": {
+      "version_tag": "0.2.3",
+      "corpus_version": "corpus_9be43285a4ba3bc831b26b9e",
+      "size_bytes": 4442992,
+      "sha256": "b74169858a1b98238851576a0c3811d465a85f9e7bf13d6c4119375d3ee2148a",
+      "pending_reviews_count": 12,
+      "chunking_gate_allowed": false
+    },
+    "story-capitulo-1-revisao-documental-v0.2.2.zip": {
+      "version_tag": "0.2.2",
+      "corpus_version": "corpus_d0a65ff175869223b26ee04b",
+      "size_bytes": 3406192,
+      "sha256": "0af12c937c03f7b187be9569ca837a41bee19d14cbd0722d7c74197be9bb1125",
+      "pending_reviews_count": 13,
+      "chunking_gate_allowed": false
+    },
+    "story-capitulo-1-revisao-documental-v0.2.1.zip": {
+      "version_tag": "0.2.1",
+      "corpus_version": "corpus_022b45189da97ba52b27e7ef",
+      "size_bytes": 2367117,
+      "sha256": "0314cf91ca66cb697196aa1437aca4b92023b40f9291f6e88a08b443ec13c45a",
+      "pending_reviews_count": 13,
+      "chunking_gate_allowed": false
+    },
+    "story-capitulo-1-revisao-documental-v0.2.0.zip": {
+      "version_tag": "0.2.0",
+      "corpus_version": "corpus_d43918f06609b65f21f89425",
+      "size_bytes": 2145113,
+      "sha256": "3c40e59046f51875b7c12bdba26572ab222499d36fe2fa7f0262cda77a412481",
+      "pending_reviews_count": 14,
+      "chunking_gate_allowed": false
+    }
+  },
+  "review_records_inventory": {
+    "reviews/tarefa-001-v1.json": { "size": 10865, "sha256": "eca52e7fbcb03b367dcf4ea0a685a5b16dfbda6c6d127131561fbb339fcdba26" },
+    "reviews/tarefa-002-v1.json": { "size": 24110, "sha256": "2729c7ba228f1d1960602c52caac95081280e4ce9b18da75cd03acc7e308216d" },
+    "reviews/tarefa-003-v1.json": { "size": 28216, "sha256": "5327f8c4effbfee8dee97b9dee27b3cfb4956c22ee83ff3e1895e79807e7c37a" },
+    "reviews/tarefa-004-v1.json": { "size": 21742, "sha256": "725f5956f7ee3f3cb812e3f0365d4d777a5e67f17c5ddbc11f1db1e698e7686d" },
+    "reviews/tarefa-005-v1.json": { "size": 30349, "sha256": "0285370673bf1568e7e4003abc28061f4a4a88abe8c3b415defed41e769cfe53" },
+    "reviews/tarefa-006-v1.json": { "size": 27327, "sha256": "a5476da133f4708f242d9e198d6384643b2e5485b98620f8b9463b81eff167f9" },
+    "reviews/tarefa-007-v1.json": { "size": 51055, "sha256": "713f7c24fb604c0e2e33399e24f708b5bd100f0238ab75a871eac45887316105" },
+    "reviews/tarefa-008-v1.json": { "size": 8366, "sha256": "960f7f20c099a206696d0f39010b5526d49a37b8d57402cd1b4580c5f224fbd4" },
+    "reviews/tarefa-009-v1.json": { "size": 13898, "sha256": "15f9be93ac6c35ea4c2b7918ba5975b38e0ce7ac59c897899052779582d04039" },
+    "reviews/tarefa-010-v1.json": { "size": 17210, "sha256": "d4538cc94b82d0bd1467bc36a0af1272d1924b7c7417ca8305bcdc00f8fa30d2" },
+    "reviews/tarefa-011-v1.json": { "size": 17546, "sha256": "5c8b76c6f69bc25bcee3c42c79317d57f45f759e5b4fde27dd85c3f78d9d8bbb" },
+    "reviews/tarefa-012-v1.json": { "size": 12861, "sha256": "a0cca05ec1a3b7dc40fd48d9ce46653e26645c51b2396d7ceca996355eced65a" },
+    "reviews/tarefa-013-v1.json": { "size": 14703, "sha256": "d36a2382ee5564a89ee4f3f0125d7191fee982075337d88c7aa828e603617372" },
+    "reviews/tarefa-014-v1.json": { "size": 17845, "sha256": "72d0cb0e3e59696b5c6c2090ec9e9335983cbc13952b536a463f10ce23cb924b" },
+    "reviews/tarefa-015-v1.json": { "size": 15103, "sha256": "928d03e18d45dca336fce4e43b26a1908ef49c94c8e15306633a79278b18515e" },
+    "reviews/tarefa-016-v1.json": { "size": 12566, "sha256": "0643fd463629f4b82c77aba90c70f431a425f0286d271fb624ff1896ec868040" }
+  },
+  "automated_tests": {
+    "total_tests": 70,
+    "passed": 70,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 5,
+    "duration_seconds": 17.08,
+    "status": "passed"
+  },
+  "tasks_operational_status": {
+    "tarefa_000": "executed_and_persisted",
+    "tarefas_001_a_007": "only_documented_in_reviews (requerem validação estrutural passo a passo)",
+    "tarefas_008_a_011": "only_documented_in_reviews (requerem validação de blocos destacados)",
+    "tarefas_012_a_013": "only_documented_in_reviews (hifenização)",
+    "tarefa_014": "only_documented_in_reviews (elemento marginal)",
+    "tarefa_015": "executed_and_persisted_review (análise bibliográfica concluída com PDF integral em corpora/story.pdf)"
+  },
+  "quality_gate": {
+    "quality_status": "review_required",
+    "chunking_gate_allowed": false,
+    "blocking_reason": "12 itens pendentes de revisão documental no corpus v0.2.3 mais recente (7 de hierarquia, 4 de citação formatada, 1 de emenda editorial)"
+  }
+}
