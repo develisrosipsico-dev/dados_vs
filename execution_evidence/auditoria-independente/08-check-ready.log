@@ -1,7 +1,0 @@
-{
-  "allowed": false,
-  "required_state": "approved",
-  "blocking_error_count": 0,
-  "pending_review_count": 12,
-  "reason": "Documentary blockers or unsafe cases remain unresolved."
-}
