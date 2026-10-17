@@ -1,0 +1,202 @@
+{
+  "application_version": "0.2.0",
+  "cases": {
+    "pagina_13": {
+      "classification": "block_quote",
+      "global_order": 51,
+      "hierarchy": [
+        {
+          "kind": "work",
+          "node_id": "doc_68538e2dac8d252a47d272de",
+          "title": "Story — Capítulo 1 — O problema da estória"
+        },
+        {
+          "kind": "chapter",
+          "node_id": "node_0357e0c292c6ecffe3791f27",
+          "title": "O PROBLEMA DA ESTÓRIA"
+        },
+        {
+          "kind": "section",
+          "node_id": "node_c6e5dc0164367d465c9db04d",
+          "title": "ESTÓRIA E VIDA"
+        }
+      ],
+      "paragraph_id": "para_0a7b2d7830743a84b0bbda13",
+      "source_spans": [
+        {
+          "bbox": [
+            97.2421875,
+            307.2254638671875,
+            512.4931030273438,
+            485.4339599609375
+          ],
+          "block_char_end": 1121,
+          "block_char_start": 0,
+          "block_id": "p000012_b00002",
+          "char_end": 2296,
+          "char_start": 1175,
+          "page_index": 12,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        }
+      ]
+    },
+    "pagina_3": {
+      "classification": "paragraph",
+      "global_order": 8,
+      "hierarchy": [
+        {
+          "kind": "work",
+          "node_id": "doc_68538e2dac8d252a47d272de",
+          "title": "Story — Capítulo 1 — O problema da estória"
+        },
+        {
+          "kind": "chapter",
+          "node_id": "node_0357e0c292c6ecffe3791f27",
+          "title": "O PROBLEMA DA ESTÓRIA"
+        },
+        {
+          "kind": "section",
+          "node_id": "node_2698e965313687d1be33bd57",
+          "title": "O DECLÍNIO DA ESTÓRIA"
+        }
+      ],
+      "paragraph_id": "para_2132df9c18928f71a0f20a40",
+      "source_spans": [
+        {
+          "bbox": [
+            76.9921875,
+            299.38330078125,
+            535.0230102539062,
+            522.99462890625
+          ],
+          "block_char_end": 880,
+          "block_char_start": 0,
+          "block_id": "p000002_b00002",
+          "char_end": 1739,
+          "char_start": 859,
+          "page_index": 2,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        }
+      ]
+    },
+    "pagina_8_primeiro": {
+      "classification": "paragraph",
+      "global_order": 32,
+      "hierarchy": [
+        {
+          "kind": "work",
+          "node_id": "doc_68538e2dac8d252a47d272de",
+          "title": "Story — Capítulo 1 — O problema da estória"
+        },
+        {
+          "kind": "chapter",
+          "node_id": "node_0357e0c292c6ecffe3791f27",
+          "title": "O PROBLEMA DA ESTÓRIA"
+        },
+        {
+          "kind": "section",
+          "node_id": "node_3c218d9bc62678cc2593ecbf",
+          "title": "O IMPERATIVO DA ESTÓRIA"
+        }
+      ],
+      "paragraph_id": "para_3bd4bbea6c13882c16abfcc9",
+      "source_spans": [
+        {
+          "bbox": [
+            99.4921875,
+            581.38330078125,
+            438.1472473144531,
+            597.99462890625
+          ],
+          "block_char_end": 57,
+          "block_char_start": 0,
+          "block_id": "p000007_b00005",
+          "char_end": 2268,
+          "char_start": 2211,
+          "page_index": 7,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        }
+      ]
+    },
+    "pagina_8_segundo": {
+      "classification": "paragraph",
+      "global_order": 33,
+      "hierarchy": [
+        {
+          "kind": "work",
+          "node_id": "doc_68538e2dac8d252a47d272de",
+          "title": "Story — Capítulo 1 — O problema da estória"
+        },
+        {
+          "kind": "chapter",
+          "node_id": "node_0357e0c292c6ecffe3791f27",
+          "title": "O PROBLEMA DA ESTÓRIA"
+        },
+        {
+          "kind": "section",
+          "node_id": "node_3c218d9bc62678cc2593ecbf",
+          "title": "O IMPERATIVO DA ESTÓRIA"
+        }
+      ],
+      "paragraph_id": "para_f312bc1ce3f790ac4458b49a",
+      "source_spans": [
+        {
+          "bbox": [
+            76.9921875,
+            600.13330078125,
+            534.9688110351562,
+            702.99462890625
+          ],
+          "block_char_end": 480,
+          "block_char_start": 57,
+          "block_id": "p000007_b00005",
+          "char_end": 2691,
+          "char_start": 2268,
+          "page_index": 7,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        },
+        {
+          "bbox": [
+            76.9921875,
+            72.13330078125,
+            534.9646606445312,
+            157.74462890625
+          ],
+          "block_char_end": 334,
+          "block_char_start": 0,
+          "block_id": "p000008_b00000",
+          "char_end": 334,
+          "char_start": 0,
+          "page_index": 8,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        }
+      ]
+    }
+  },
+  "chunking_gate": {
+    "allowed": false,
+    "blocking_error_count": 0,
+    "pending_review_count": 14,
+    "reason": "Documentary blockers or unsafe cases remain unresolved.",
+    "required_state": "approved"
+  },
+  "pdf_sha256": "dabd10538ffdc866c6fa24187ffb1b9f784f647a01d5286a9c6a91cd7015633d",
+  "raw_preserved": true,
+  "raw_sha256": "64e0b2d3cc7adf6c53a663470080fecf2a03ab203c55d5ed08817a248de56811",
+  "version": "corpus_d43918f06609b65f21f89425",
+  "visual_inspection": {
+    "evidence_images": [
+      "inspection/pagina_3.png",
+      "inspection/pagina_8_primeiro.png",
+      "inspection/pagina_8_segundo.png",
+      "inspection/pagina_13.png"
+    ],
+    "fidelity_certified": false,
+    "scope": "Selected paragraph boundaries and order on local pages 3, 8 and 13 only; not exhaustive proofreading or human certification."
+  }
+}

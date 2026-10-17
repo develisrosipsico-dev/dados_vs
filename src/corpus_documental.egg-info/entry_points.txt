@@ -1,0 +1,2 @@
+[console_scripts]
+corpus = corpus_documental.cli:main

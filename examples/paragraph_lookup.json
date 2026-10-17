@@ -1,0 +1,142 @@
+{
+  "chapter_id": "node_2c0018b22627d0b2cdd38605",
+  "classification": "paragraph",
+  "composition_evidence": {
+    "font_size": 11.0,
+    "italic_ratio": 0.0,
+    "left_indent": 0.0,
+    "right_indent": 18.02899169921875
+  },
+  "document_id": "doc_6f54b0e793c246cd1cfbfc0e",
+  "hierarchy": [
+    {
+      "kind": "work",
+      "node_id": "doc_6f54b0e793c246cd1cfbfc0e",
+      "title": "Capítulo sintético de demonstração"
+    },
+    {
+      "kind": "chapter",
+      "node_id": "node_2c0018b22627d0b2cdd38605",
+      "title": "Capítulo 1 - Documento de teste"
+    },
+    {
+      "kind": "section",
+      "node_id": "node_0ae609c9186c846a9571dfad",
+      "title": "1.1 Rastreabilidade"
+    }
+  ],
+  "hierarchy_review_required": false,
+  "next_id": "para_1b2edb1fdb96cb9f67b3ae7a",
+  "normalization_map": [
+    {
+      "clean_end": 44,
+      "clean_start": 0,
+      "kind": "identity",
+      "source_refs": [
+        {
+          "block_char_end": 44,
+          "block_char_start": 0,
+          "block_id": "p000000_b00006",
+          "char_end": 242,
+          "char_start": 198,
+          "page_index": 0,
+          "source_span_index": 0,
+          "text_raw_end": 44,
+          "text_raw_start": 0
+        }
+      ],
+      "text_raw_end": 44,
+      "text_raw_start": 0
+    },
+    {
+      "clean_end": 45,
+      "clean_start": 44,
+      "kind": "composition_separator",
+      "source_refs": [],
+      "text_raw_end": 45,
+      "text_raw_start": 44
+    },
+    {
+      "clean_end": 96,
+      "clean_start": 45,
+      "kind": "identity",
+      "source_refs": [
+        {
+          "block_char_end": 51,
+          "block_char_start": 0,
+          "block_id": "p000001_b00002",
+          "char_end": 76,
+          "char_start": 25,
+          "page_index": 1,
+          "source_span_index": 1,
+          "text_raw_end": 96,
+          "text_raw_start": 45
+        }
+      ],
+      "text_raw_end": 96,
+      "text_raw_start": 45
+    }
+  ],
+  "note_call_ids": [],
+  "paragraph_global_order": 3,
+  "paragraph_id": "para_47ede0090298e60d62d44eb4",
+  "paragraph_local_order": 3,
+  "parent_id": "node_0ae609c9186c846a9571dfad",
+  "previous_id": "para_b12c73c1ad09b060d7517cc9",
+  "quality_status": "review_required",
+  "section_id": "node_0ae609c9186c846a9571dfad",
+  "sentences": [
+    {
+      "char_end": 96,
+      "char_start": 0,
+      "order": 1,
+      "paragraph_id": "para_47ede0090298e60d62d44eb4",
+      "quality_status": "provisional_rule_based",
+      "sentence_id": "sent_87f566e92c1e7cf9eaba999b",
+      "text": "Este parágrafo atravessa a página e continua na página seguinte com referências às duas origens."
+    }
+  ],
+  "source_spans": [
+    {
+      "bbox": [
+        50.0,
+        668.1749877929688,
+        271.95794677734375,
+        683.2890014648438
+      ],
+      "block_char_end": 44,
+      "block_char_start": 0,
+      "block_id": "p000000_b00006",
+      "char_end": 242,
+      "char_start": 198,
+      "page_index": 0,
+      "pdf_page_label": null,
+      "printed_page_number": null
+    },
+    {
+      "bbox": [
+        50.0,
+        88.17500305175781,
+        308.01593017578125,
+        103.28900146484375
+      ],
+      "block_char_end": 51,
+      "block_char_start": 0,
+      "block_id": "p000001_b00002",
+      "char_end": 76,
+      "char_start": 25,
+      "page_index": 1,
+      "pdf_page_label": null,
+      "printed_page_number": null
+    }
+  ],
+  "text_clean": "Este parágrafo atravessa a página e continua na página seguinte com referências às duas origens.",
+  "text_raw": "Este parágrafo atravessa a página e continua\nna página seguinte com referências às duas origens.",
+  "transformations": [
+    {
+      "after": "Este parágrafo atravessa a página e continua na página seguinte com referências às duas origens.",
+      "before": "Este parágrafo atravessa a página e continua\nna página seguinte com referências às duas origens.",
+      "operation": "join_layout_lines"
+    }
+  ]
+}

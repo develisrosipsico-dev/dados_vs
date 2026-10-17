@@ -1,0 +1,4 @@
+PyMuPDF==1.26.7
+
+[test]
+pytest==8.4.2

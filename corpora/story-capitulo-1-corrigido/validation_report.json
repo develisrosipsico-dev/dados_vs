@@ -1,0 +1,77 @@
+{
+  "checks": {
+    "errors": [],
+    "processing_errors": [],
+    "raw_reconstruction_matches": true
+  },
+  "fidelity": "Preservation relative to extracted text checked; fidelity to visible PDF is not certified.",
+  "limitations": [
+    "Reading order, hierarchy and paragraph segmentation are heuristic.",
+    "Printed page numbers require visual verification; embedded labels are separate.",
+    "OCR and sentence boundaries require human review.",
+    "Vector figures and borderless tables may remain unrecognized."
+  ],
+  "metrics": {
+    "block_coverage_ratio": 1.0,
+    "classified_blocks": 97,
+    "consistency_errors": 0,
+    "cross_page_paragraphs": 10,
+    "ocr_pages": 0,
+    "page_record_coverage_ratio": 1.0,
+    "pages_extracted": 18,
+    "pages_failed": 0,
+    "pages_recorded": 18,
+    "pages_selected": 18,
+    "pages_without_text": 0,
+    "paragraphs": 73,
+    "paragraphs_requiring_review": 73,
+    "segmentation_confidence": "not_calibrated; heuristic rules, manual review required",
+    "text_blocks": 97,
+    "warning_count": 51
+  },
+  "problem_pages": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "schema_version": "1.0",
+  "scope": {
+    "out_of_scope_pages": [],
+    "selected_pages": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "status": "review_required"
+}

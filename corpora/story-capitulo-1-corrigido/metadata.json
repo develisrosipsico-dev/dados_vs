@@ -1,0 +1,180 @@
+{
+  "bibliographic": {
+    "author": "Robert Mckee",
+    "edition": null,
+    "provenance": "PDF metadata unless bibliographic_evidence specifies a checked source excerpt",
+    "publisher": null,
+    "title": "Story — Capítulo 1 — O problema da estória",
+    "year": null
+  },
+  "bibliographic_evidence": {},
+  "character_offsets": "Unicode code points, half-open [start,end); pages_raw.text_raw",
+  "corpus_version": "corpus_dac1ff497687e07ee803e02a",
+  "document_id": "doc_68538e2dac8d252a47d272de",
+  "file_id": "sha256:dabd10538ffdc866c6fa24187ffb1b9f784f647a01d5286a9c6a91cd7015633d",
+  "filename": "story-capitulo-1.pdf",
+  "identity_policy": "IDs deterministic within corpus version; source/configuration/implementation/tool changes create a new version",
+  "out_of_scope_pages": [],
+  "page_count": 18,
+  "page_index_convention": "zero-based physical PDF index",
+  "pdf_metadata": {
+    "author": "Robert Mckee",
+    "format": "PDF 1.7",
+    "subject": "Recorte das páginas físicas 19–36 do PDF fornecido.",
+    "title": "Story — Capítulo 1 — O problema da estória"
+  },
+  "pdf_outline": [],
+  "pdf_page_label_rules": [],
+  "processing": {
+    "application_version": "0.1.1",
+    "config": {
+      "bibliographic_evidence": null,
+      "document_id": null,
+      "join_hyphens": false,
+      "merge_pages": true,
+      "ocr": "auto",
+      "ocr_dpi": 300,
+      "ocr_language": "por",
+      "pages": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    "implementation_sha256": "58951eb479c7776a1a54b601cb7598a55dde69e6bf2ef04294c1a7e3a5e72702",
+    "ocr_model_sha256": {},
+    "pymupdf_version": "1.26.7"
+  },
+  "schema_version": "1.0",
+  "selected_pages": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "sha256": "dabd10538ffdc866c6fa24187ffb1b9f784f647a01d5286a9c6a91cd7015633d",
+  "source_characteristics": {
+    "by_page": [
+      {
+        "kind": "text",
+        "method": "native",
+        "page_index": 0
+      },
+      {
+        "kind": "text",
+        "method": "native",
+        "page_index": 1
+      },
+      {
+        "kind": "text",
+        "method": "native",
+        "page_index": 2
+      },
+      {
+        "kind": "text",
+        "method": "native",
+        "page_index": 3
+      },
+      {
+        "kind": "text",
+        "method": "native",
+        "page_index": 4
+      },
+      {
+        "kind": "text",
+        "method": "native",
+        "page_index": 5
+      },
+      {
+        "kind": "text",
+        "method": "native",
+        "page_index": 6
+      },
+      {
+        "kind": "text",
+        "method": "native",
+        "page_index": 7
+      },
+      {
+        "kind": "text",
+        "method": "native",
+        "page_index": 8
+      },
+      {
+        "kind": "text",
+        "method": "native",
+        "page_index": 9
+      },
+      {
+        "kind": "text",
+        "method": "native",
+        "page_index": 10
+      },
+      {
+        "kind": "text",
+        "method": "native",
+        "page_index": 11
+      },
+      {
+        "kind": "text",
+        "method": "native",
+        "page_index": 12
+      },
+      {
+        "kind": "text",
+        "method": "native",
+        "page_index": 13
+      },
+      {
+        "kind": "text",
+        "method": "native",
+        "page_index": 14
+      },
+      {
+        "kind": "text",
+        "method": "native",
+        "page_index": 15
+      },
+      {
+        "kind": "text",
+        "method": "native",
+        "page_index": 16
+      },
+      {
+        "kind": "text",
+        "method": "native",
+        "page_index": 17
+      }
+    ],
+    "scope": "selected_pages_only"
+  }
+}

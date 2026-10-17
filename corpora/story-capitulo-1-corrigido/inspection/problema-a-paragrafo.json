@@ -1,0 +1,144 @@
+{
+  "chapter_id": null,
+  "classification": "paragraph",
+  "document_id": "doc_68538e2dac8d252a47d272de",
+  "hierarchy": [
+    {
+      "kind": "work",
+      "node_id": "doc_68538e2dac8d252a47d272de",
+      "title": "Story — Capítulo 1 — O problema da estória"
+    }
+  ],
+  "next_id": "para_f545971fcb7f0fa06344ca3c",
+  "paragraph_global_order": 8,
+  "paragraph_id": "para_e819e28b37515935f9211f2f",
+  "paragraph_local_order": 8,
+  "parent_id": "doc_68538e2dac8d252a47d272de",
+  "previous_id": "para_de7475ba38b9a98ab9ff01fe",
+  "quality_status": "review_required",
+  "section_id": null,
+  "sentences": [
+    {
+      "char_end": 92,
+      "char_start": 0,
+      "order": 1,
+      "paragraph_id": "para_e819e28b37515935f9211f2f",
+      "quality_status": "provisional_rule_based",
+      "sentence_id": "sent_92145142f080db2734c81009",
+      "text": "Estórias falsas e defeituosas substituem substância por espetáculo, verdade por artifícios. "
+    },
+    {
+      "char_end": 211,
+      "char_start": 92,
+      "order": 2,
+      "paragraph_id": "para_e819e28b37515935f9211f2f",
+      "quality_status": "provisional_rule_based",
+      "sentence_id": "sent_479fcc13bb304eb2d8df024f",
+      "text": "Estórias fracas, desesperadas para segurar a atenção do público, de-generam-se em espetáculos banais multimilionários. "
+    },
+    {
+      "char_end": 304,
+      "char_start": 211,
+      "order": 3,
+      "paragraph_id": "para_e819e28b37515935f9211f2f",
+      "quality_status": "provisional_rule_based",
+      "sentence_id": "sent_875a11a1dedc0cf191ddb0e3",
+      "text": "Em Hollywood, a imagem fica cada vez mais extravagante, na Europa, cada vez mais decorativa. "
+    },
+    {
+      "char_end": 410,
+      "char_start": 304,
+      "order": 4,
+      "paragraph_id": "para_e819e28b37515935f9211f2f",
+      "quality_status": "provisional_rule_based",
+      "sentence_id": "sent_1138d740ed0103c66f84983b",
+      "text": "O comportamento dos atores fica cada vez mais histriônico, cada vez mais lascivo, cada vez mais violento. "
+    },
+    {
+      "char_end": 477,
+      "char_start": 410,
+      "order": 5,
+      "paragraph_id": "para_e819e28b37515935f9211f2f",
+      "quality_status": "provisional_rule_based",
+      "sentence_id": "sent_97926f418e8e43a334b98c05",
+      "text": "A música e os efeitos sonoros se tornam cada vez mais tumultuosos. "
+    },
+    {
+      "char_end": 513,
+      "char_start": 477,
+      "order": 6,
+      "paragraph_id": "para_e819e28b37515935f9211f2f",
+      "quality_status": "provisional_rule_based",
+      "sentence_id": "sent_e19f193caf83a84beb538641",
+      "text": "O efeito final revela- se grotesco. "
+    },
+    {
+      "char_end": 580,
+      "char_start": 513,
+      "order": 7,
+      "paragraph_id": "para_e819e28b37515935f9211f2f",
+      "quality_status": "provisional_rule_based",
+      "sentence_id": "sent_99cddbbd608a4906482bd823",
+      "text": "Uma cultura não pode evoluir sem uma narrativa honesta e poderosa. "
+    },
+    {
+      "char_end": 682,
+      "char_start": 580,
+      "order": 8,
+      "paragraph_id": "para_e819e28b37515935f9211f2f",
+      "quality_status": "provisional_rule_based",
+      "sentence_id": "sent_db526bdb8115b327d8623e30",
+      "text": "Quando uma sociedade experimenta repetitivamente pseudoestórias ocas e envernizadas, ela se degenera. "
+    },
+    {
+      "char_end": 817,
+      "char_start": 682,
+      "order": 9,
+      "paragraph_id": "para_e819e28b37515935f9211f2f",
+      "quality_status": "provisional_rule_based",
+      "sentence_id": "sent_ce83c44382a064142a651d35",
+      "text": "Precisamos de sátiras e tragédias verdadeiras, dramas e comédias que iluminem os cantos mais sombrios da psique humana e da sociedade. "
+    },
+    {
+      "char_end": 875,
+      "char_start": 817,
+      "order": 10,
+      "paragraph_id": "para_e819e28b37515935f9211f2f",
+      "quality_status": "provisional_rule_based",
+      "sentence_id": "sent_02874418cf864a21f1e760af",
+      "text": "Se não, como Yeats avisou, “… o centro não pode suportar”."
+    }
+  ],
+  "source_spans": [
+    {
+      "bbox": [
+        76.9921875,
+        299.38330078125,
+        535.0230102539062,
+        522.99462890625
+      ],
+      "block_char_end": 880,
+      "block_char_start": 0,
+      "block_id": "p000002_b00002",
+      "char_end": 1739,
+      "char_start": 859,
+      "page_index": 2,
+      "pdf_page_label": null,
+      "printed_page_number": null
+    }
+  ],
+  "text_clean": "Estórias falsas e defeituosas substituem substância por espetáculo, verdade por artifícios. Estórias fracas, desesperadas para segurar a atenção do público, de-generam-se em espetáculos banais multimilionários. Em Hollywood, a imagem fica cada vez mais extravagante, na Europa, cada vez mais decorativa. O comportamento dos atores fica cada vez mais histriônico, cada vez mais lascivo, cada vez mais violento. A música e os efeitos sonoros se tornam cada vez mais tumultuosos. O efeito final revela- se grotesco. Uma cultura não pode evoluir sem uma narrativa honesta e poderosa. Quando uma sociedade experimenta repetitivamente pseudoestórias ocas e envernizadas, ela se degenera. Precisamos de sátiras e tragédias verdadeiras, dramas e comédias que iluminem os cantos mais sombrios da psique humana e da sociedade. Se não, como Yeats avisou, “… o centro não pode suportar”.",
+  "text_raw": "Estórias falsas e defeituosas substituem substância por espetáculo,\nverdade por artifícios. Estórias fracas, desesperadas para segurar a atenção\ndo público, de-generam-se em espetáculos banais multimilionários. Em\nHollywood, a imagem fica cada vez mais extravagante, na Europa, cada vez\nmais decorativa. O comportamento dos atores fica cada vez mais\nhistriônico, cada vez mais lascivo, cada vez mais violento. A música e os\nefeitos sonoros se tornam cada vez mais tumultuosos. O efeito final revela-\nse grotesco. Uma cultura não pode evoluir sem uma narrativa honesta e\npoderosa. \nQuando \numa \nsociedade \nexperimenta \nrepetitivamente\npseudoestórias ocas e envernizadas, ela se degenera. Precisamos de sátiras e\ntragédias verdadeiras, dramas e comédias que iluminem os cantos mais\nsombrios da psique humana e da sociedade. Se não, como Yeats avisou, “…\no centro não pode suportar”.",
+  "transformations": [
+    {
+      "after": "Estórias falsas e defeituosas substituem substância por espetáculo,\nverdade por artifícios. Estórias fracas, desesperadas para segurar a atenção\ndo público, de-generam-se em espetáculos banais multimilionários. Em\nHollywood, a imagem fica cada vez mais extravagante, na Europa, cada vez\nmais decorativa. O comportamento dos atores fica cada vez mais\nhistriônico, cada vez mais lascivo, cada vez mais violento. A música e os\nefeitos sonoros se tornam cada vez mais tumultuosos. O efeito final revela-\nse grotesco. Uma cultura não pode evoluir sem uma narrativa honesta e\npoderosa. Quando uma sociedade experimenta repetitivamente\npseudoestórias ocas e envernizadas, ela se degenera. Precisamos de sátiras e\ntragédias verdadeiras, dramas e comédias que iluminem os cantos mais\nsombrios da psique humana e da sociedade. Se não, como Yeats avisou, “…\no centro não pode suportar”.",
+      "before": "Estórias falsas e defeituosas substituem substância por espetáculo,\nverdade por artifícios. Estórias fracas, desesperadas para segurar a atenção\ndo público, de-generam-se em espetáculos banais multimilionários. Em\nHollywood, a imagem fica cada vez mais extravagante, na Europa, cada vez\nmais decorativa. O comportamento dos atores fica cada vez mais\nhistriônico, cada vez mais lascivo, cada vez mais violento. A música e os\nefeitos sonoros se tornam cada vez mais tumultuosos. O efeito final revela-\nse grotesco. Uma cultura não pode evoluir sem uma narrativa honesta e\npoderosa. \nQuando \numa \nsociedade \nexperimenta \nrepetitivamente\npseudoestórias ocas e envernizadas, ela se degenera. Precisamos de sátiras e\ntragédias verdadeiras, dramas e comédias que iluminem os cantos mais\nsombrios da psique humana e da sociedade. Se não, como Yeats avisou, “…\no centro não pode suportar”.",
+      "operation": "reuse_existing_line_boundary_space"
+    },
+    {
+      "after": "Estórias falsas e defeituosas substituem substância por espetáculo, verdade por artifícios. Estórias fracas, desesperadas para segurar a atenção do público, de-generam-se em espetáculos banais multimilionários. Em Hollywood, a imagem fica cada vez mais extravagante, na Europa, cada vez mais decorativa. O comportamento dos atores fica cada vez mais histriônico, cada vez mais lascivo, cada vez mais violento. A música e os efeitos sonoros se tornam cada vez mais tumultuosos. O efeito final revela- se grotesco. Uma cultura não pode evoluir sem uma narrativa honesta e poderosa. Quando uma sociedade experimenta repetitivamente pseudoestórias ocas e envernizadas, ela se degenera. Precisamos de sátiras e tragédias verdadeiras, dramas e comédias que iluminem os cantos mais sombrios da psique humana e da sociedade. Se não, como Yeats avisou, “… o centro não pode suportar”.",
+      "before": "Estórias falsas e defeituosas substituem substância por espetáculo,\nverdade por artifícios. Estórias fracas, desesperadas para segurar a atenção\ndo público, de-generam-se em espetáculos banais multimilionários. Em\nHollywood, a imagem fica cada vez mais extravagante, na Europa, cada vez\nmais decorativa. O comportamento dos atores fica cada vez mais\nhistriônico, cada vez mais lascivo, cada vez mais violento. A música e os\nefeitos sonoros se tornam cada vez mais tumultuosos. O efeito final revela-\nse grotesco. Uma cultura não pode evoluir sem uma narrativa honesta e\npoderosa. Quando uma sociedade experimenta repetitivamente\npseudoestórias ocas e envernizadas, ela se degenera. Precisamos de sátiras e\ntragédias verdadeiras, dramas e comédias que iluminem os cantos mais\nsombrios da psique humana e da sociedade. Se não, como Yeats avisou, “…\no centro não pode suportar”.",
+      "operation": "join_layout_lines"
+    }
+  ]
+}
