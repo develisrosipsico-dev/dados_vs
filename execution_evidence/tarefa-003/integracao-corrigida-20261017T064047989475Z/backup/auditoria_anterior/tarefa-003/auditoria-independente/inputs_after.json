@@ -1,0 +1,651 @@
+{
+  "captured_utc": "2026-10-17T06:10:57.415834+00:00",
+  "files": [
+    {
+      "path": "src/corpus_documental.egg-info/PKG-INFO",
+      "size_bytes": 250,
+      "sha256": "8fa3377cc3bc7f773a80be4ce8c4bf72204c2cbd297338193279300c9f433bf2",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental.egg-info/SOURCES.txt",
+      "size_bytes": 817,
+      "sha256": "95889af8f85b440d6536f57b5b061dcf5f2d56da11a874f74769ba6e34e70547",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental.egg-info/entry_points.txt",
+      "size_bytes": 54,
+      "sha256": "4ae840c1223080b1c0f8c36140b9a255ed0e1f8658d248144205d2c6d87d5aa7",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental.egg-info/requires.txt",
+      "size_bytes": 38,
+      "sha256": "2522e1cce6f54f217ba107cd7151760b528eff656928a7d7c9350a37f1093f92",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental.egg-info/top_level.txt",
+      "size_bytes": 18,
+      "sha256": "dd6583d385bc89239dc97d78049580ab87300500ec362873b0411c751973557e",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental.egg-info/dependency_links.txt",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/graphics.py",
+      "size_bytes": 2171,
+      "sha256": "cda4fa8ec2d360229f0d145182d3e12e1749933c92c4ea7e7f1529bc26a9865a",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/ingest.py",
+      "size_bytes": 3346,
+      "sha256": "a6e51500d09a9aa89b349e2d1a2b4c27b83b360f4cffb37e315cb9b8acaf5e58",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/audit.py",
+      "size_bytes": 431,
+      "sha256": "db83e1407b57914829fe54260f09a0ad1083ae71d30b974f771373d839d952b8",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/models.py",
+      "size_bytes": 3398,
+      "sha256": "970a406e26e830c2f99860093fb9051a4b9543759f59d4efb9ffff9584fa8214",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/layout.py",
+      "size_bytes": 7756,
+      "sha256": "d6bbf3318abed42fba8919e58acbcc60f600bdd6dacb0e1a21f6ce2698a79624",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/__init__.py",
+      "size_bytes": 92,
+      "sha256": "382521a2dfcaf319dc63f6db1168330c7b97c0c50a5230684b1f0543b7939baf",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/hierarchy.py",
+      "size_bytes": 2900,
+      "sha256": "eedd6359989ff7333fbf4896293913c935456b6b0a47432f881a7da32b22db1f",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/inspection.py",
+      "size_bytes": 8252,
+      "sha256": "8940efa597f572b2b24dd474692925b9fa00baf546d126185c979154a58c4ac8",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/cli.py",
+      "size_bytes": 6144,
+      "sha256": "3300f994294c47610cd2b9604e4c54e120a73c4613a63abcc2afaf37a3b799f5",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/extraction.py",
+      "size_bytes": 6530,
+      "sha256": "c71f492dec6329f5995247b57d82951049491925615667bc30871e6894c49922",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/pipeline.py",
+      "size_bytes": 7769,
+      "sha256": "14ee2b973b3948dd98668a6d05879ccbb42744f29656b7a09b99361e59a1df16",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/storage.py",
+      "size_bytes": 1082,
+      "sha256": "b50214498dc72b051406ebb81610913422d72c42373925c339ac31acc5748d8e",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/structure.py",
+      "size_bytes": 25390,
+      "sha256": "a9c5a6cab81f8f58617067e800c1bc8af93798bded3fc07833c2090eb9bc8b81",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/composition.py",
+      "size_bytes": 3664,
+      "sha256": "692a7afb2d946a10c1ffd2f59b64ccd481be193b6e47be91c8e9c64a6a06b6fa",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/provenance.py",
+      "size_bytes": 2879,
+      "sha256": "899125ebadac649d6c9c54e4a31c8a0596d155820d5475ce358d85dce0978cfb",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/normalization.py",
+      "size_bytes": 5058,
+      "sha256": "4b3c3859816135237b9bf15576472da61475a8c4287b5ca560fa9d81776dd896",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/quality.py",
+      "size_bytes": 13819,
+      "sha256": "07d0533ca4c1fd82798832f266e2890ce92b82a0bfdd2683168a86d6d0001688",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/special.py",
+      "size_bytes": 6739,
+      "sha256": "87a7b7eeb126cf4eb7c3d573c3eaf2b8abb794fc9fb104c8e99ca8c0c691fc97",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/__main__.py",
+      "size_bytes": 48,
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "unchanged": true
+    },
+    {
+      "path": "src/corpus_documental/validation.py",
+      "size_bytes": 17362,
+      "sha256": "a50abfa2ac2588794e2ff10e8c2d65c1f9ff895dca97ea34619fa6df5fa93b61",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_tarefa_003.py",
+      "size_bytes": 11940,
+      "sha256": "a5adc3d498d04ec96dfd28203589a324522aa02f65388fdba173dacfaf0e4010",
+      "unchanged": false
+    },
+    {
+      "path": "tests/conftest.py",
+      "size_bytes": 3520,
+      "sha256": "03a058b878c31224268cd5251c60880faeb03676e2ec2b4c8788bbffd5876ecc",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_tarefa_002.py",
+      "size_bytes": 8395,
+      "sha256": "9f1b3601d62b9a1e31b95cf81829a31d58aa3270222b2a16473d1153e1606158",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_documentary_synthetic.py",
+      "size_bytes": 11294,
+      "sha256": "c0ae227bab8f24c6ce0904ec2234976cb3bd1f83128012556fbfd6ec149b9f64",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_raw_integrity.py",
+      "size_bytes": 5596,
+      "sha256": "7770ea13909b3b0693f21e9ec6e20796e8411065eba749ce85c4ed40b9fe9267",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_inspection.py",
+      "size_bytes": 1936,
+      "sha256": "ec74711587059311fe59fc6df2c1bbc2d43f43f740e2070d22858977c9f012b1",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_documentary_regressions.py",
+      "size_bytes": 15166,
+      "sha256": "bb99c652397ff12eb5b838f61ce6853c51431099525528a4457f88bae6c426fa",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_tarefa_001.py",
+      "size_bytes": 7550,
+      "sha256": "6a52a56600f472340086de960d26e2634e2b9d4a8a7896b3f849bf3636ddbaa3",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_reading_flow.py",
+      "size_bytes": 9610,
+      "sha256": "51922b709a9c50aa65ab00aaeace360179e7739a97376db77bcdd0e04304cba1",
+      "unchanged": true
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "size_bytes": 14697,
+      "sha256": "8915d1eec6ff1032341e353680c6755d8a38442d8cf0fc44d9ebfcf7ef68097c",
+      "unchanged": true
+    },
+    {
+      "path": "pyproject.toml",
+      "size_bytes": 511,
+      "sha256": "9b7827e3137e62e25cb8dcee64d522ffaf1cd362f8411ef2f751e5a27938ff1f",
+      "unchanged": true
+    },
+    {
+      "path": "requirements-dev.txt",
+      "size_bytes": 172,
+      "sha256": "4dda0132439527b81a05b576ff733aa590d169918149c467cf38c2797288c3dc",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/tarefa-016-v1.json",
+      "size_bytes": 12566,
+      "sha256": "0643fd463629f4b82c77aba90c70f431a425f0286d271fb624ff1896ec868040",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/tarefa-006-v1.json",
+      "size_bytes": 27327,
+      "sha256": "a5476da133f4708f242d9e198d6384643b2e5485b98620f8b9463b81eff167f9",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/tarefa-007-v1.json",
+      "size_bytes": 51055,
+      "sha256": "713f7c24fb604c0e2e33399e24f708b5bd100f0238ab75a871eac45887316105",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/tarefa-015-v1.json",
+      "size_bytes": 15103,
+      "sha256": "928d03e18d45dca336fce4e43b26a1908ef49c94c8e15306633a79278b18515e",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/tarefa-005-v1.json",
+      "size_bytes": 30349,
+      "sha256": "0285370673bf1568e7e4003abc28061f4a4a88abe8c3b415defed41e769cfe53",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/tarefa-004-v1.json",
+      "size_bytes": 21742,
+      "sha256": "725f5956f7ee3f3cb812e3f0365d4d777a5e67f17c5ddbc11f1db1e698e7686d",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/tarefa-014-v1.json",
+      "size_bytes": 17845,
+      "sha256": "72d0cb0e3e59696b5c6c2090ec9e9335983cbc13952b536a463f10ce23cb924b",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/tarefa-011-v1.json",
+      "size_bytes": 17546,
+      "sha256": "5c8b76c6f69bc25bcee3c42c79317d57f45f759e5b4fde27dd85c3f78d9d8bbb",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/tarefa-001-v1.json",
+      "size_bytes": 10865,
+      "sha256": "eca52e7fbcb03b367dcf4ea0a685a5b16dfbda6c6d127131561fbb339fcdba26",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/tarefa-008-v1.json",
+      "size_bytes": 8366,
+      "sha256": "960f7f20c099a206696d0f39010b5526d49a37b8d57402cd1b4580c5f224fbd4",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/tarefa-009-v1.json",
+      "size_bytes": 13898,
+      "sha256": "15f9be93ac6c35ea4c2b7918ba5975b38e0ce7ac59c897899052779582d04039",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/tarefa-010-v1.json",
+      "size_bytes": 17210,
+      "sha256": "d4538cc94b82d0bd1467bc36a0af1272d1924b7c7417ca8305bcdc00f8fa30d2",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/tarefa-012-v1.json",
+      "size_bytes": 12861,
+      "sha256": "a0cca05ec1a3b7dc40fd48d9ce46653e26645c51b2396d7ceca996355eced65a",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/tarefa-002-v1.json",
+      "size_bytes": 24110,
+      "sha256": "2729c7ba228f1d1960602c52caac95081280e4ce9b18da75cd03acc7e308216d",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/tarefa-003-v1.json",
+      "size_bytes": 28216,
+      "sha256": "5327f8c4effbfee8dee97b9dee27b3cfb4956c22ee83ff3e1895e79807e7c37a",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/tarefa-013-v1.json",
+      "size_bytes": 14703,
+      "sha256": "d36a2382ee5564a89ee4f3f0125d7191fee982075337d88c7aa828e603617372",
+      "unchanged": true
+    },
+    {
+      "path": "examples/story_excerpt_context.json",
+      "size_bytes": 283,
+      "sha256": "6c65d403bed13463188951b9458ee9253e7b8188d7ed26686f54f6c793e71f18",
+      "unchanged": true
+    },
+    {
+      "path": "story-capitulo-1-revisao-documental-v0.2.2.zip",
+      "size_bytes": 3406192,
+      "sha256": "0af12c937c03f7b187be9569ca837a41bee19d14cbd0722d7c74197be9bb1125",
+      "unchanged": true
+    },
+    {
+      "path": "execution_evidence/tarefa-003/pagina_local_08.png",
+      "size_bytes": 306825,
+      "sha256": "bf3ec0f773723451a5194fbae574fb23171df1cfe90477a1cf2868fc00a08866",
+      "unchanged": true
+    },
+    {
+      "path": "execution_evidence/tarefa-003/pagina_local_09.png",
+      "size_bytes": 288256,
+      "sha256": "595e47477ac8ea66b371cb474cbec6f325eb6c0fb0d354b3c1d80eceecc6b77d",
+      "unchanged": true
+    },
+    {
+      "path": "execution_evidence/tarefa-003/commands.log",
+      "size_bytes": 1355,
+      "sha256": "d4479aa8a1ffd10402ed6fb3f690b50f568bf2f1b5bb2fe232343822c9894cfc",
+      "unchanged": true
+    },
+    {
+      "path": "execution_evidence/tarefa-003/manifest.json",
+      "size_bytes": 1038,
+      "sha256": "f806b20c82a26b09fed7ffc480127b27e18f2c98e6275c8df24b1695c4d0724f",
+      "unchanged": true
+    },
+    {
+      "path": "execution_evidence/tarefa-003/tests.log",
+      "size_bytes": 2391,
+      "sha256": "7cbf6949017dc56f146b32400aa1ec653a1eee04a2d64d8b4614de88bbff49c2",
+      "unchanged": true
+    },
+    {
+      "path": "execution_evidence/tarefa-003/pagina_local_10.png",
+      "size_bytes": 278254,
+      "sha256": "2b05eba05e07cc4e235a5382d0cd4fa271cd697b430189333db08e2c5e5ff883",
+      "unchanged": true
+    },
+    {
+      "path": "execution_evidence/tarefa-003/pagina_local_11.png",
+      "size_bytes": 269292,
+      "sha256": "a7081e10e3465f690e9d072c8affc2c1a0159bf76c7e3f7cf500ee5e8d4a497f",
+      "unchanged": true
+    },
+    {
+      "path": "execution_evidence/tarefa-003/pagina_local_12.png",
+      "size_bytes": 280014,
+      "sha256": "b58844351280668f3b1946be7f66e2ccb474e258e6987b31b6a648051b34b9bb",
+      "unchanged": true
+    },
+    {
+      "path": "execution_evidence/tarefa-003/execution.json",
+      "size_bytes": 3057,
+      "sha256": "bc8df6675b1031372535dab77acf57b5bad260437e0674dd1ecbcb03d960fd55",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/processing_log.jsonl",
+      "size_bytes": 199184,
+      "sha256": "597c4ae844ed96595d6cbf98f465a0874d5a76f10f7a247e3a920ea6b6bb92cf",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/lineage.jsonl",
+      "size_bytes": 23526,
+      "sha256": "8efb75d016cfa0734d91a4ad69f197098656dc3d0cd59717926cbf8010ff826e",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/original.pdf",
+      "size_bytes": 230391,
+      "sha256": "dabd10538ffdc866c6fa24187ffb1b9f784f647a01d5286a9c6a91cd7015633d",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/metadata.json",
+      "size_bytes": 4921,
+      "sha256": "3e1240b162c92c28bcf1bf096f3d7aa71d0014fd222d056fa5dd2255522414eb",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/structure.json",
+      "size_bytes": 19790,
+      "sha256": "91f65c6c35aab47e8fb0d2cd4d790a9a952e86bead37d7af2625b490009b9fd5",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/elements.jsonl",
+      "size_bytes": 37779,
+      "sha256": "72f4494d0a875e33367e23da2bd0cef8844251570fe7b23fe99208b843b52f8a",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/processing_log.jsonl",
+      "size_bytes": 199117,
+      "sha256": "8696b7a34cd97771c4d93ebe656e5e1a1f0a54a3913b4457e7ec87b4d5c33613",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/metadata.json",
+      "size_bytes": 4825,
+      "sha256": "2def83b44f006c6f5191da6930aae44d95b80f3f41e3880bd7cc39fe89a586be",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/processing_log.jsonl",
+      "size_bytes": 198012,
+      "sha256": "6c6e52c3dbdb72d57e6bc5f3bfb4bbca9ab75824096422b72788557c4baeba3b",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/metadata.json",
+      "size_bytes": 4713,
+      "sha256": "a19b1246ae773cdc29fa02c9ff84689d0142bad336f37c0ea524faaebb2cea3b",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/previous_history/processing_log.jsonl",
+      "size_bytes": 196017,
+      "sha256": "4c4767719135f7e73fc748d353b52243f91ae3b6a89c9a4a17042901b2812209",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/previous_history/metadata.json",
+      "size_bytes": 4659,
+      "sha256": "f0cd8e1be56eacbe189b15ca6f5267bfb37da1fc9022e11d62892515347158c9",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/previous_history/previous_history/processing_log.jsonl",
+      "size_bytes": 175373,
+      "sha256": "528c4c27f9431fe81081fa3b26bde60e60310189578c57ef5625a1937b973821",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/previous_history/previous_history/metadata.json",
+      "size_bytes": 3851,
+      "sha256": "30a30f500dc798736910b2d17974342fe0942ee1b317c1bda14d04e2354152bf",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/previous_history/previous_history/structure.json",
+      "size_bytes": 325,
+      "sha256": "31a1b7d74703bd6468743ceeb7d78776caa2c16c4e680de44081d1c4530b7814",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/previous_history/previous_history/elements.jsonl",
+      "size_bytes": 17861,
+      "sha256": "c7ddd55602feab10274a5d780ebece77400a1467e05319ca7368139d8b7bbb1b",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/previous_history/previous_history/manifest.json",
+      "size_bytes": 638,
+      "sha256": "bd6ef813cff61498987a9239d1cf3ae8ab7c631b519de4379803fa05e350f7e1",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/previous_history/previous_history/validation_report.json",
+      "size_bytes": 1522,
+      "sha256": "8a97eb82b9d0cfc77b90a2fc383c2376d2ae7d68e765886e0f95184e1e1f8bda",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/previous_history/previous_history/paragraphs.jsonl",
+      "size_bytes": 348411,
+      "sha256": "57f16391efb16386ac0a0198dfe6488e7c3eb11627e1e673ae66e9f7f121d6c0",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/previous_history/structure.json",
+      "size_bytes": 19790,
+      "sha256": "4d24cc423c343e6886e0842c8b3b9953a75d947a31fcc23a95cc907e297f269c",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/previous_history/elements.jsonl",
+      "size_bytes": 37472,
+      "sha256": "7db9c696d5449ff8ccf1d3eb573657b8bcf6863ad83c5df1ee3b02c40e005631",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/previous_history/manifest.json",
+      "size_bytes": 638,
+      "sha256": "313c8b62751a189e10edce063b3046bbaa75193769fc7c64091a577a873a9c0c",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/previous_history/validation_report.json",
+      "size_bytes": 5239,
+      "sha256": "794068fd3b258e5e39456b928e1aeed4c1c6c4cfe6cb72aff6d5eba099860547",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/previous_history/paragraphs.jsonl",
+      "size_bytes": 709696,
+      "sha256": "a89f1e48e0bbc1f5ddfd4584792b6a87b67f340dafa8d00ea51a5ee60b0a1900",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/previous_history/pages_raw.jsonl",
+      "size_bytes": 6462715,
+      "sha256": "64e0b2d3cc7adf6c53a663470080fecf2a03ab203c55d5ed08817a248de56811",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/structure.json",
+      "size_bytes": 19790,
+      "sha256": "4a3a5e0f4750591ca7452e4e0def5f3783dbbd00307b1c88482d57f8d92d50c2",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/elements.jsonl",
+      "size_bytes": 37472,
+      "sha256": "0b93108b90b36fc2bcb006733fc62ae0fe52738f51cebccf28ba990c79185aed",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/manifest.json",
+      "size_bytes": 638,
+      "sha256": "8740b6af445889a1e7869740644c14bcae3afba9d48bbea13b123f1230274551",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/validation_report.json",
+      "size_bytes": 5094,
+      "sha256": "f987f79ab7c03dc7b547a1a751aa7edbe4802813a2d02e7bd8205cabc5ac8ab0",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/paragraphs.jsonl",
+      "size_bytes": 711321,
+      "sha256": "93cec6307e8f4811b1c77b86bebd0f124a40c14eff374443005756092b7b961c",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/previous_history/pages_raw.jsonl",
+      "size_bytes": 6462715,
+      "sha256": "64e0b2d3cc7adf6c53a663470080fecf2a03ab203c55d5ed08817a248de56811",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/structure.json",
+      "size_bytes": 19790,
+      "sha256": "d65d7469cdd993ffc41cee02d47540c5c54442c8acfa887e0a8e927a1c3cd17f",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/elements.jsonl",
+      "size_bytes": 37472,
+      "sha256": "c6d316fd67582fc3c5523e98043963672d168a3bbaea98bf88e5b0ecd7fcd3b4",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/manifest.json",
+      "size_bytes": 638,
+      "sha256": "419c1e31df74c3901aed94e7b6f672abe260e32d14d82fb3c2ba3b537b16891f",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/validation_report.json",
+      "size_bytes": 5092,
+      "sha256": "78d340a6695b5d81c99f04ef049e6155612d72a20525c166bbdf8f373d181390",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/paragraphs.jsonl",
+      "size_bytes": 712398,
+      "sha256": "4a27d1faa10cf9a4fa5ea03bc3167b4da54ea20d72f8a6e5ba16d552fd7386df",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/history/pages_raw.jsonl",
+      "size_bytes": 6462715,
+      "sha256": "64e0b2d3cc7adf6c53a663470080fecf2a03ab203c55d5ed08817a248de56811",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/validation_report.json",
+      "size_bytes": 5014,
+      "sha256": "00e43762321d573fceb07440f9231d6b6d3c3f0fdfd247edcd9b385011b1d7a7",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/paragraphs.jsonl",
+      "size_bytes": 712398,
+      "sha256": "f25dfaa8385e18f0b252e266208448a0fdd31113b48e66f31bade79b2f357684",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/pages_raw.jsonl",
+      "size_bytes": 6462715,
+      "sha256": "64e0b2d3cc7adf6c53a663470080fecf2a03ab203c55d5ed08817a248de56811",
+      "unchanged": true
+    },
+    {
+      "path": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3/element_lineage.jsonl",
+      "size_bytes": 364,
+      "sha256": "20c5fd6a71678b736df4b3d5a99e450f67ffc273aadb7611ebef0e6efebc2223",
+      "unchanged": true
+    },
+    {
+      "path": "story-capitulo-1.pdf",
+      "size_bytes": 230391,
+      "sha256": "dabd10538ffdc866c6fa24187ffb1b9f784f647a01d5286a9c6a91cd7015633d",
+      "unchanged": true
+    }
+  ],
+  "changed_received_paths": [
+    "tests/test_tarefa_003.py"
+  ],
+  "all_corpus_files_unchanged": true
+}

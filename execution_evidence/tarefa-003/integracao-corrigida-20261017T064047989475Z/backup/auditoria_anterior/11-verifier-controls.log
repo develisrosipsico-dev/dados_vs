@@ -1,0 +1,55 @@
+{
+  "scope": "Controles temporários do verificador; corpus e evidências reais intactos.",
+  "all_controls_passed": true,
+  "cases": [
+    {
+      "case": "valid",
+      "returncode": 0,
+      "errors": []
+    },
+    {
+      "case": "wrong_hash",
+      "returncode": 1,
+      "errors": [
+        {
+          "code": "hash_mismatch",
+          "path": "sample.txt"
+        }
+      ]
+    },
+    {
+      "case": "wrong_size",
+      "returncode": 1,
+      "errors": [
+        {
+          "code": "size_mismatch",
+          "path": "sample.txt"
+        },
+        {
+          "code": "hash_mismatch",
+          "path": "sample.txt"
+        }
+      ]
+    },
+    {
+      "case": "unexpected_file",
+      "returncode": 1,
+      "errors": [
+        {
+          "code": "unexpected_file",
+          "path": "unexpected.txt"
+        }
+      ]
+    },
+    {
+      "case": "missing_file",
+      "returncode": 1,
+      "errors": [
+        {
+          "code": "missing_file",
+          "path": "sample.txt"
+        }
+      ]
+    }
+  ]
+}

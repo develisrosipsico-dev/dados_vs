@@ -1,0 +1,917 @@
+{
+  "task": "tarefa-003",
+  "operational_status": "verified_existing",
+  "scope": "Intervalo direto 28–41; subseção filha posterior e revisões individuais das citações não aprovadas.",
+  "completed_utc": "2026-10-17T06:07:41.667102+00:00",
+  "corpus_version": "corpus_9be43285a4ba3bc831b26b9e",
+  "application_version": "0.2.3",
+  "document_id": "doc_68538e2dac8d252a47d272de",
+  "pdf_sha256": "dabd10538ffdc866c6fa24187ffb1b9f784f647a01d5286a9c6a91cd7015633d",
+  "original_integral": "Não fornecido; vínculo externo preservado conforme source_context, sem revalidação independente das 493 páginas.",
+  "source_context": {
+    "local_page_count": 18,
+    "original_sha256": "5360f54ed5d6e27414e7d06ca915f113235c010f614cf363c0e36d74cea0c35b",
+    "page_index_offset": 18,
+    "verification": "Capítulo recortado das páginas físicas 19–36 da fonte recebida; referência externa, não paginação impressa."
+  },
+  "source_implementation_sha256": "76ef87600557e7d4330deb9a6b9296592aa6cf0005b4e2d3c1cac4f21016b9ad",
+  "all_corpus_files_unchanged_since_receipt": true,
+  "all_original_evidence_files_unchanged": true,
+  "changed_received_files": [
+    {
+      "path": "tests/test_tarefa_003.py",
+      "before_sha256": "554ad96f8a8c848194108df10bf1e0f0b475450a9604044f4f5b8633be492a9a",
+      "after_sha256": "a5adc3d498d04ec96dfd28203589a324522aa02f65388fdba173dacfaf0e4010"
+    }
+  ],
+  "section": {
+    "element_id": "elem_e76300480d96eea39103df63",
+    "evidence": {
+      "font_names": [
+        "CenturyGothic-Bold"
+      ],
+      "occurrences": 6,
+      "size": 21.247499465942383,
+      "type": "recurring_section_typography"
+    },
+    "kind": "section",
+    "level": 3,
+    "node_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+    "parent_id": "node_01abfd94af1f8ecc7a287936",
+    "quality_status": "review_required",
+    "source_spans": [
+      {
+        "bbox": [
+          76.9921875,
+          70.87800598144531,
+          349.75372314453125,
+          96.92901611328125
+        ],
+        "block_char_end": 23,
+        "block_char_start": 0,
+        "block_id": "p000007_b00000",
+        "char_end": 23,
+        "char_start": 0,
+        "page_index": 7,
+        "pdf_page_label": null,
+        "printed_page_number": null
+      }
+    ],
+    "title": "O IMPERATIVO DA ESTÓRIA"
+  },
+  "direct_record_count": 14,
+  "direct_local_pages": [
+    8,
+    9,
+    10
+  ],
+  "records": [
+    {
+      "paragraph_id": "para_a970cef6bdd893fb1a7259ab",
+      "paragraph_global_order": 28,
+      "paragraph_local_order": 1,
+      "classification": "paragraph",
+      "parent_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "section_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "previous_id": "para_4352a4d37ef0e5700911d1b2",
+      "next_id": "para_48af4e5a5315bc4caa879af5",
+      "source_spans": [
+        {
+          "bbox": [
+            76.9921875,
+            114.88330078125,
+            534.9354858398438,
+            234.99462890625
+          ],
+          "block_char_end": 481,
+          "block_char_start": 0,
+          "block_id": "p000007_b00001",
+          "char_end": 505,
+          "char_start": 24,
+          "page_index": 7,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        }
+      ],
+      "local_pages": [
+        8
+      ],
+      "normalization_map_errors": [],
+      "text_raw_sha256": "ee443044ae2f1e969a033cecf82c2dbb27f2110a8b13db0590e80a9da56a05cb",
+      "text_clean_sha256": "bc9832f2c2fa65957860826fa73a2df1411133e097e595ccb85d85264ce800a8"
+    },
+    {
+      "paragraph_id": "para_48af4e5a5315bc4caa879af5",
+      "paragraph_global_order": 29,
+      "paragraph_local_order": 2,
+      "classification": "block_quote",
+      "parent_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "section_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "previous_id": "para_a970cef6bdd893fb1a7259ab",
+      "next_id": "para_4994d4f3e2ae70a27bc42a25",
+      "source_spans": [
+        {
+          "bbox": [
+            97.2421875,
+            252.4749755859375,
+            512.5144653320312,
+            366.9334716796875
+          ],
+          "block_char_end": 758,
+          "block_char_start": 0,
+          "block_id": "p000007_b00002",
+          "char_end": 1264,
+          "char_start": 506,
+          "page_index": 7,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        }
+      ],
+      "local_pages": [
+        8
+      ],
+      "normalization_map_errors": [],
+      "text_raw_sha256": "6190483cb039cbe728a9ca7c7343d5395984d5b7a18b062c60313592b8059a2e",
+      "text_clean_sha256": "498d7c2c11b6702a2212557230822306f8f942a47506bf368b7b8e19c03327e4"
+    },
+    {
+      "paragraph_id": "para_4994d4f3e2ae70a27bc42a25",
+      "paragraph_global_order": 30,
+      "paragraph_local_order": 3,
+      "classification": "paragraph",
+      "parent_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "section_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "previous_id": "para_48af4e5a5315bc4caa879af5",
+      "next_id": "para_d84105182c914fe6386bdec3",
+      "source_spans": [
+        {
+          "bbox": [
+            99.4921875,
+            390.13330078125,
+            316.09222412109375,
+            406.74462890625
+          ],
+          "block_char_end": 36,
+          "block_char_start": 0,
+          "block_id": "p000007_b00003",
+          "char_end": 1301,
+          "char_start": 1265,
+          "page_index": 7,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        }
+      ],
+      "local_pages": [
+        8
+      ],
+      "normalization_map_errors": [],
+      "text_raw_sha256": "2811705d72f54be1a7a772a6e0b8db1b999bf73f457353a66b7021ba4768665c",
+      "text_clean_sha256": "2811705d72f54be1a7a772a6e0b8db1b999bf73f457353a66b7021ba4768665c"
+    },
+    {
+      "paragraph_id": "para_d84105182c914fe6386bdec3",
+      "paragraph_global_order": 31,
+      "paragraph_local_order": 4,
+      "classification": "block_quote",
+      "parent_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "section_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "previous_id": "para_4994d4f3e2ae70a27bc42a25",
+      "next_id": "para_9aa39d3fb4b5f002c4098c06",
+      "source_spans": [
+        {
+          "bbox": [
+            97.2421875,
+            423.4749755859375,
+            512.43408203125,
+            563.4334716796875
+          ],
+          "block_char_end": 908,
+          "block_char_start": 0,
+          "block_id": "p000007_b00004",
+          "char_end": 2210,
+          "char_start": 1302,
+          "page_index": 7,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        }
+      ],
+      "local_pages": [
+        8
+      ],
+      "normalization_map_errors": [],
+      "text_raw_sha256": "8709f08a90bc80f432ed1cc430a925f3b90322bebd206c53ae7ea56ccb2c3c5a",
+      "text_clean_sha256": "b2455f122aed36cd5346df33112e54a1ad4acd025145b464533581f8f722d5f7"
+    },
+    {
+      "paragraph_id": "para_9aa39d3fb4b5f002c4098c06",
+      "paragraph_global_order": 32,
+      "paragraph_local_order": 5,
+      "classification": "paragraph",
+      "parent_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "section_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "previous_id": "para_d84105182c914fe6386bdec3",
+      "next_id": "para_138fcc0b7a08f0801e041160",
+      "source_spans": [
+        {
+          "bbox": [
+            99.4921875,
+            581.38330078125,
+            438.1472473144531,
+            597.99462890625
+          ],
+          "block_char_end": 57,
+          "block_char_start": 0,
+          "block_id": "p000007_b00005",
+          "char_end": 2268,
+          "char_start": 2211,
+          "page_index": 7,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        }
+      ],
+      "local_pages": [
+        8
+      ],
+      "normalization_map_errors": [],
+      "text_raw_sha256": "14440dba8e738ffc5c22e7f7c781f5f330fc6c6a9852008bbe135d1385a0f2d7",
+      "text_clean_sha256": "100fe34e39797d2e2431b64776aa17408235710a0708cc644ceb7049623004a1"
+    },
+    {
+      "paragraph_id": "para_138fcc0b7a08f0801e041160",
+      "paragraph_global_order": 33,
+      "paragraph_local_order": 6,
+      "classification": "paragraph",
+      "parent_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "section_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "previous_id": "para_9aa39d3fb4b5f002c4098c06",
+      "next_id": "para_7320fc1ef5a0696904a19a9d",
+      "source_spans": [
+        {
+          "bbox": [
+            76.9921875,
+            600.13330078125,
+            534.9688110351562,
+            702.99462890625
+          ],
+          "block_char_end": 480,
+          "block_char_start": 57,
+          "block_id": "p000007_b00005",
+          "char_end": 2691,
+          "char_start": 2268,
+          "page_index": 7,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        },
+        {
+          "bbox": [
+            76.9921875,
+            72.13330078125,
+            534.9646606445312,
+            157.74462890625
+          ],
+          "block_char_end": 334,
+          "block_char_start": 0,
+          "block_id": "p000008_b00000",
+          "char_end": 334,
+          "char_start": 0,
+          "page_index": 8,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        }
+      ],
+      "local_pages": [
+        8,
+        9
+      ],
+      "normalization_map_errors": [],
+      "text_raw_sha256": "b0243264899ad2fde69eeeb042b8a0944abecac69df253660bb7aad501f720d7",
+      "text_clean_sha256": "436d16f96de0b9391a83a86a03f7161a015b6d7da2ca6cff0e85e3997e091a0b"
+    },
+    {
+      "paragraph_id": "para_7320fc1ef5a0696904a19a9d",
+      "paragraph_global_order": 34,
+      "paragraph_local_order": 7,
+      "classification": "paragraph",
+      "parent_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "section_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "previous_id": "para_138fcc0b7a08f0801e041160",
+      "next_id": "para_d001cc963dcd5f728a82deaa",
+      "source_spans": [
+        {
+          "bbox": [
+            76.9921875,
+            159.88330078125,
+            534.9281616210938,
+            314.49462890625
+          ],
+          "block_char_end": 622,
+          "block_char_start": 0,
+          "block_id": "p000008_b00001",
+          "char_end": 957,
+          "char_start": 335,
+          "page_index": 8,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        }
+      ],
+      "local_pages": [
+        9
+      ],
+      "normalization_map_errors": [],
+      "text_raw_sha256": "b03cc8ac4ab5f03e31ea1cbdba69f45788e80294204af9262640d006c4dea256",
+      "text_clean_sha256": "5eec12f516fefc55ed5cb5dc1328311e25b234fa9d2063abd3da22838efb2e13"
+    },
+    {
+      "paragraph_id": "para_d001cc963dcd5f728a82deaa",
+      "paragraph_global_order": 35,
+      "paragraph_local_order": 8,
+      "classification": "paragraph",
+      "parent_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "section_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "previous_id": "para_7320fc1ef5a0696904a19a9d",
+      "next_id": "para_04f079560b39efb7a1113cb5",
+      "source_spans": [
+        {
+          "bbox": [
+            76.9921875,
+            316.63330078125,
+            534.9207153320312,
+            419.49462890625
+          ],
+          "block_char_end": 395,
+          "block_char_start": 0,
+          "block_id": "p000008_b00002",
+          "char_end": 1353,
+          "char_start": 958,
+          "page_index": 8,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        }
+      ],
+      "local_pages": [
+        9
+      ],
+      "normalization_map_errors": [],
+      "text_raw_sha256": "eb30c1af4ea6d2a74c3523f09f5ecf215dc77be4a4f91af8f7adcfc58dc8a1fe",
+      "text_clean_sha256": "51f38a76f008ec66144f55c5ddb45af797d9654ac2c5bc44642ffca41400cd38"
+    },
+    {
+      "paragraph_id": "para_04f079560b39efb7a1113cb5",
+      "paragraph_global_order": 36,
+      "paragraph_local_order": 9,
+      "classification": "paragraph",
+      "parent_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "section_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "previous_id": "para_d001cc963dcd5f728a82deaa",
+      "next_id": "para_8518e62bf889361c5b544a09",
+      "source_spans": [
+        {
+          "bbox": [
+            76.9921875,
+            421.63330078125,
+            534.964599609375,
+            558.99462890625
+          ],
+          "block_char_end": 488,
+          "block_char_start": 0,
+          "block_id": "p000008_b00003",
+          "char_end": 1842,
+          "char_start": 1354,
+          "page_index": 8,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        }
+      ],
+      "local_pages": [
+        9
+      ],
+      "normalization_map_errors": [],
+      "text_raw_sha256": "bdf2150b18cb206ff26603d5fba28437b5b687d68b487de84da68cf3293ba9c6",
+      "text_clean_sha256": "0424218ddee66eddbb498d52001026bb27dbf1e8f57277b5a46732ba755501a2"
+    },
+    {
+      "paragraph_id": "para_8518e62bf889361c5b544a09",
+      "paragraph_global_order": 37,
+      "paragraph_local_order": 10,
+      "classification": "paragraph",
+      "parent_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "section_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "previous_id": "para_04f079560b39efb7a1113cb5",
+      "next_id": "para_297332fb73eccbb243d51076",
+      "source_spans": [
+        {
+          "bbox": [
+            76.9921875,
+            561.13330078125,
+            534.9501342773438,
+            646.74462890625
+          ],
+          "block_char_end": 313,
+          "block_char_start": 0,
+          "block_id": "p000008_b00004",
+          "char_end": 2156,
+          "char_start": 1843,
+          "page_index": 8,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        }
+      ],
+      "local_pages": [
+        9
+      ],
+      "normalization_map_errors": [],
+      "text_raw_sha256": "e52fd77837f6f888b0427bebec1802760c8882d2f7e7453495451723ff6f5128",
+      "text_clean_sha256": "84740bd8e20bb0ad364da10855fe527db6f3b2016d50000af85c5b94bd7a3893"
+    },
+    {
+      "paragraph_id": "para_297332fb73eccbb243d51076",
+      "paragraph_global_order": 38,
+      "paragraph_local_order": 11,
+      "classification": "paragraph",
+      "parent_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "section_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "previous_id": "para_8518e62bf889361c5b544a09",
+      "next_id": "para_0dd83381b110c6872bcb1650",
+      "source_spans": [
+        {
+          "bbox": [
+            76.9921875,
+            648.88330078125,
+            534.9675903320312,
+            717.24462890625
+          ],
+          "block_char_end": 239,
+          "block_char_start": 0,
+          "block_id": "p000008_b00005",
+          "char_end": 2396,
+          "char_start": 2157,
+          "page_index": 8,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        },
+        {
+          "bbox": [
+            76.9921875,
+            72.13330078125,
+            535.0118408203125,
+            312.99462890625
+          ],
+          "block_char_end": 767,
+          "block_char_start": 0,
+          "block_id": "p000009_b00000",
+          "char_end": 767,
+          "char_start": 0,
+          "page_index": 9,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        }
+      ],
+      "local_pages": [
+        9,
+        10
+      ],
+      "normalization_map_errors": [],
+      "text_raw_sha256": "5c46c3746fbaf9bc1c1d8ad986e12ec7a2d131e009b3188f728d6c677c831778",
+      "text_clean_sha256": "205ad4be6afbff86bba80808318846a62fd0e9dba3ff628e51a0c12b2653a729"
+    },
+    {
+      "paragraph_id": "para_0dd83381b110c6872bcb1650",
+      "paragraph_global_order": 39,
+      "paragraph_local_order": 12,
+      "classification": "paragraph",
+      "parent_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "section_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "previous_id": "para_297332fb73eccbb243d51076",
+      "next_id": "para_b3eb1e5467fef4f816cfb244",
+      "source_spans": [
+        {
+          "bbox": [
+            76.9921875,
+            315.13330078125,
+            534.93505859375,
+            452.49462890625
+          ],
+          "block_char_end": 520,
+          "block_char_start": 0,
+          "block_id": "p000009_b00001",
+          "char_end": 1288,
+          "char_start": 768,
+          "page_index": 9,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        }
+      ],
+      "local_pages": [
+        10
+      ],
+      "normalization_map_errors": [],
+      "text_raw_sha256": "249277f630171217dac00dfceafb221fdea00fc1246bf0cb909cb6df597f9c19",
+      "text_clean_sha256": "fa5fd02e7477c3efc15ef7fd3e8c1e1409d5291289d5b1041b823dee6ac8e612"
+    },
+    {
+      "paragraph_id": "para_b3eb1e5467fef4f816cfb244",
+      "paragraph_global_order": 40,
+      "paragraph_local_order": 13,
+      "classification": "paragraph",
+      "parent_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "section_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "previous_id": "para_0dd83381b110c6872bcb1650",
+      "next_id": "para_c193017cce606f7fc1537c58",
+      "source_spans": [
+        {
+          "bbox": [
+            76.9921875,
+            454.63330078125,
+            535.0249633789062,
+            591.99462890625
+          ],
+          "block_char_end": 515,
+          "block_char_start": 0,
+          "block_id": "p000009_b00002",
+          "char_end": 1804,
+          "char_start": 1289,
+          "page_index": 9,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        }
+      ],
+      "local_pages": [
+        10
+      ],
+      "normalization_map_errors": [],
+      "text_raw_sha256": "634251400e8fb147baf10cb78dcddd9bde29814c84a5d51e4cdbd99a40e56851",
+      "text_clean_sha256": "e5202b9a708f921a54a4cf8e4518754df1489d5dc697ead1eb654b01ca8964a1"
+    },
+    {
+      "paragraph_id": "para_c193017cce606f7fc1537c58",
+      "paragraph_global_order": 41,
+      "paragraph_local_order": 14,
+      "classification": "paragraph",
+      "parent_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "section_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "previous_id": "para_b3eb1e5467fef4f816cfb244",
+      "next_id": "para_5e28b95d7ce2acd8df3b93f8",
+      "source_spans": [
+        {
+          "bbox": [
+            76.9921875,
+            594.13330078125,
+            534.9862670898438,
+            679.74462890625
+          ],
+          "block_char_end": 328,
+          "block_char_start": 0,
+          "block_id": "p000009_b00003",
+          "char_end": 2133,
+          "char_start": 1805,
+          "page_index": 9,
+          "pdf_page_label": null,
+          "printed_page_number": null
+        }
+      ],
+      "local_pages": [
+        10
+      ],
+      "normalization_map_errors": [],
+      "text_raw_sha256": "4242a0df077bb656486b84c5b7ef19a1be5de50e43288cdf62851db1083c6c07",
+      "text_clean_sha256": "9220205d6066edcf31a7c133e31fb210350854a0b1a9ca68e43c99089a8d3c55"
+    }
+  ],
+  "quotes": [
+    {
+      "element_id": "quote_67b255a099f146c5685452dd",
+      "paragraph_id": "para_48af4e5a5315bc4caa879af5",
+      "global_order": 29,
+      "section_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "in_direct_scope": true,
+      "reference_link_matches": true,
+      "text_ownership": "reference",
+      "quality_status": "review_required",
+      "source_spans_match": true
+    },
+    {
+      "element_id": "quote_afd064fbbd3783bc06c70819",
+      "paragraph_id": "para_d84105182c914fe6386bdec3",
+      "global_order": 31,
+      "section_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+      "in_direct_scope": true,
+      "reference_link_matches": true,
+      "text_ownership": "reference",
+      "quality_status": "review_required",
+      "source_spans_match": true
+    },
+    {
+      "element_id": "quote_712634d53d00867044692636",
+      "paragraph_id": "para_6c26d541213bfb96a2e17a9c",
+      "global_order": 49,
+      "section_id": "node_e887467cab5b19f288eff12a",
+      "in_direct_scope": false,
+      "reference_link_matches": true,
+      "text_ownership": "reference",
+      "quality_status": "review_required",
+      "source_spans_match": true
+    },
+    {
+      "element_id": "quote_849c9d694672f25e7a8e5910",
+      "paragraph_id": "para_2b923112ac5f85f0b4d178c0",
+      "global_order": 51,
+      "section_id": "node_e887467cab5b19f288eff12a",
+      "in_direct_scope": false,
+      "reference_link_matches": true,
+      "text_ownership": "reference",
+      "quality_status": "review_required",
+      "source_spans_match": true
+    }
+  ],
+  "section_quote_count": 2,
+  "corpus_quote_count": 4,
+  "next_child_boundary": {
+    "element_id": "elem_aaab623c074ac74b12a68195",
+    "evidence": {
+      "font_names": [
+        "LiberationSerif-Bold",
+        "LiberationSerif-BoldItalic"
+      ],
+      "size": 21.247499465942383,
+      "type": "contrasting_bold_heading"
+    },
+    "kind": "subsection",
+    "level": 4,
+    "node_id": "node_4f9c6d35163293a95053c9e4",
+    "parent_id": "node_e1ee2dbacf6a8b0f6eeb1181",
+    "quality_status": "review_required",
+    "source_spans": [
+      {
+        "bbox": [
+          76.9921875,
+          72.56655883789062,
+          298.27569580078125,
+          96.09650421142578
+        ],
+        "block_char_end": 23,
+        "block_char_start": 0,
+        "block_id": "p000010_b00000",
+        "char_end": 23,
+        "char_start": 0,
+        "page_index": 10,
+        "pdf_page_label": null,
+        "printed_page_number": null
+      }
+    ],
+    "title": "Boa estória bem contada"
+  },
+  "junit_target": {
+    "tests": 11,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "junit_full_suite": {
+    "tests": 101,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "dependencies": {
+      "PyMuPDF": "1.26.7",
+      "pytest": "8.4.2",
+      "iniconfig": "2.3.1",
+      "packaging": "26.3",
+      "pluggy": "1.6.0",
+      "Pygments": "2.21.0"
+    }
+  },
+  "validation": {
+    "status": "review_required",
+    "raw_integrity": {
+      "status": "passed",
+      "errors": [],
+      "raw_reconstruction_matches": true
+    },
+    "gate": {
+      "allowed": false,
+      "required_state": "approved",
+      "blocking_error_count": 0,
+      "pending_review_count": 12,
+      "reason": "Documentary blockers or unsafe cases remain unresolved."
+    },
+    "saved_report_semantically_matches_current": true,
+    "remaining_review_items": [
+      {
+        "code": "formatted_quote_requires_review",
+        "unit_id": "para_48af4e5a5315bc4caa879af5"
+      },
+      {
+        "code": "formatted_quote_requires_review",
+        "unit_id": "para_d84105182c914fe6386bdec3"
+      },
+      {
+        "code": "formatted_quote_requires_review",
+        "unit_id": "para_6c26d541213bfb96a2e17a9c"
+      },
+      {
+        "code": "formatted_quote_requires_review",
+        "unit_id": "para_2b923112ac5f85f0b4d178c0"
+      },
+      {
+        "code": "hierarchy_requires_review",
+        "node_id": "node_0354973cb948e1245ecdb01f"
+      },
+      {
+        "code": "hierarchy_requires_review",
+        "node_id": "node_74a997edbbc24ce02939270a"
+      },
+      {
+        "code": "hierarchy_requires_review",
+        "node_id": "node_e1ee2dbacf6a8b0f6eeb1181"
+      },
+      {
+        "code": "hierarchy_requires_review",
+        "node_id": "node_4f9c6d35163293a95053c9e4"
+      },
+      {
+        "code": "hierarchy_requires_review",
+        "node_id": "node_e887467cab5b19f288eff12a"
+      },
+      {
+        "code": "hierarchy_requires_review",
+        "node_id": "node_47c9b05f809cf98aaa698398"
+      },
+      {
+        "code": "hierarchy_requires_review",
+        "node_id": "node_fc2b3a4f7630a8ccccced964"
+      },
+      {
+        "code": "editorial_amendment",
+        "event_id": "event_000193",
+        "unit_id": "para_f58b94908b71d770fe6e0cb2"
+      }
+    ],
+    "human_approval_granted": false,
+    "quote_reviews_approved": false
+  },
+  "pdf_heading_typography": [
+    {
+      "local_page": 1,
+      "text": "O PROBLEMA DA ESTÓRIA",
+      "bbox": [
+        136.91015625,
+        175.35951232910156,
+        475.0882263183594,
+        206.0765838623047
+      ],
+      "spans": [
+        {
+          "text": "O PROBLEMA DA ESTÓRIA",
+          "font": "UnderwoodChampion",
+          "size": 27.494998931884766,
+          "flags": 4,
+          "bbox": [
+            136.91015625,
+            175.35951232910156,
+            475.0882263183594,
+            206.0765838623047
+          ]
+        }
+      ]
+    },
+    {
+      "local_page": 1,
+      "text": "O DECLÍNIO DA ESTÓRIA",
+      "bbox": [
+        76.9921875,
+        288.37799072265625,
+        323.4035949707031,
+        314.42901611328125
+      ],
+      "spans": [
+        {
+          "text": "O DECLÍNIO DA ESTÓRIA",
+          "font": "CenturyGothic-Bold",
+          "size": 21.247499465942383,
+          "flags": 20,
+          "bbox": [
+            76.9921875,
+            288.37799072265625,
+            323.4035949707031,
+            314.42901611328125
+          ]
+        }
+      ]
+    },
+    {
+      "local_page": 5,
+      "text": "A PERDA DO OFÍCIO",
+      "bbox": [
+        76.9921875,
+        212.6280059814453,
+        283.47186279296875,
+        238.67901611328125
+      ],
+      "spans": [
+        {
+          "text": "A PERDA DO OFÍCIO",
+          "font": "CenturyGothic-Bold",
+          "size": 21.247499465942383,
+          "flags": 20,
+          "bbox": [
+            76.9921875,
+            212.6280059814453,
+            283.47186279296875,
+            238.67901611328125
+          ]
+        }
+      ]
+    },
+    {
+      "local_page": 8,
+      "text": "O IMPERATIVO DA ESTÓRIA",
+      "bbox": [
+        76.9921875,
+        70.87800598144531,
+        349.75372314453125,
+        96.92901611328125
+      ],
+      "spans": [
+        {
+          "text": "O IMPERATIVO DA ESTÓRIA",
+          "font": "CenturyGothic-Bold",
+          "size": 21.247499465942383,
+          "flags": 20,
+          "bbox": [
+            76.9921875,
+            70.87800598144531,
+            349.75372314453125,
+            96.92901611328125
+          ]
+        }
+      ]
+    },
+    {
+      "local_page": 11,
+      "text": "Boa estória bem contada",
+      "bbox": [
+        76.9921875,
+        72.56655883789062,
+        298.27569580078125,
+        96.09650421142578
+      ],
+      "spans": [
+        {
+          "text": "Boa estória ",
+          "font": "LiberationSerif-Bold",
+          "size": 21.247499465942383,
+          "flags": 20,
+          "bbox": [
+            76.9921875,
+            72.56655883789062,
+            184.3849334716797,
+            96.09650421142578
+          ]
+        },
+        {
+          "text": "bem",
+          "font": "LiberationSerif-BoldItalic",
+          "size": 21.247499465942383,
+          "flags": 22,
+          "bbox": [
+            184.3828125,
+            72.56655883789062,
+            220.96646118164062,
+            96.09650421142578
+          ]
+        },
+        {
+          "text": " contada",
+          "font": "LiberationSerif-Bold",
+          "size": 21.247499465942383,
+          "flags": 20,
+          "bbox": [
+            220.95703125,
+            72.56655883789062,
+            298.27569580078125,
+            96.09650421142578
+          ]
+        }
+      ]
+    }
+  ],
+  "prior_local_test_run": "Não reconstituído. O novo resultado foi obtido nesta auditoria; afirmações anteriores de 90 casos não são reutilizadas como evidência."
+}
