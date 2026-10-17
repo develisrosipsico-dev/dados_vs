@@ -1,0 +1,7 @@
+mkdir -p execution_evidence/tarefa-001
+python3 -c "import json, hashlib; ... # verificação de PDF e corpus_version"
+python3 -c "import pymupdf; ... # inspeção de blocos e coordenadas"
+python3 -c "import pymupdf; ... # renderização de pagina_local_01.png e pagina_local_05.png"
+python3 -c "import json; ... # comparação com versão 0.2.0 e geração de matriz dos 14 parágrafos"
+./.venv/bin/pytest -v tests/test_tarefa_001.py
+./.venv/bin/pytest -v tests/test_tarefa_001.py > execution_evidence/tarefa-001/tests.log 2>&1

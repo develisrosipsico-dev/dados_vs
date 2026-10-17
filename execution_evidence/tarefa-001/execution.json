@@ -1,0 +1,441 @@
+{
+  "task": "tarefa-001",
+  "name": "Execução e validação documental da seção O DECLÍNIO DA ESTÓRIA",
+  "operational_status": "verified_existing",
+  "timestamp": "2026-10-17T02:15:00Z",
+  "corpus_examined": {
+    "version": "corpus_9be43285a4ba3bc831b26b9e",
+    "version_tag": "0.2.3",
+    "location": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3",
+    "document_id": "doc_68538e2dac8d252a47d272de",
+    "pdf_path": "story-capitulo-1.pdf",
+    "pdf_sha256": "dabd10538ffdc866c6fa24187ffb1b9f784f647a01d5286a9c6a91cd7015633d"
+  },
+  "target_section": {
+    "title": "O DECLÍNIO DA ESTÓRIA",
+    "classification": "section",
+    "level": 3,
+    "current_node_id": "node_0354973cb948e1245ecdb01f",
+    "historical_node_id_0_2_0": "node_2698e965313687d1be33bd57",
+    "element_id": "elem_9f98684d4b7080f8a75d7228",
+    "parent_id": "node_01abfd94af1f8ecc7a287936",
+    "parent_title": "O PROBLEMA DA ESTÓRIA",
+    "source_span": {
+      "page_index": 0,
+      "page_local": 1,
+      "block_id": "p000000_b00002",
+      "bbox": [
+        76.9921875,
+        288.37799072265625,
+        323.4035949707031,
+        314.42901611328125
+      ],
+      "char_start": 24,
+      "char_end": 45
+    }
+  },
+  "visual_inspection": {
+    "page_local_01": {
+      "rendered_image": "execution_evidence/tarefa-001/pagina_local_01.png",
+      "observations": [
+        "Título \"O DECLÍNIO DA ESTÓRIA\" visível na página local 1 (página física 19 do livro integral).",
+        "Tipografia CenturyGothic-Bold (21.25 pt), em caixa alta, diferenciando-se claramente do corpo do texto (LiberationSerif, 15 pt) e do título do capítulo (UnderwoodChampion, 27.5 pt).",
+        "Posicionado abaixo do título do capítulo (\"O PROBLEMA DA ESTÓRIA\") e acima do primeiro parágrafo (\"Imagine, em um dia inteiro...\").",
+        "Início da seção rigorosamente delimitado e sem elementos omitidos."
+      ]
+    },
+    "boundary_page_local_05": {
+      "rendered_image": "execution_evidence/tarefa-001/pagina_local_05.png",
+      "observations": [
+        "O parágrafo global 14 (\"Hoje, porém, filmes asiáticos...\") encerra a seção na página local 5 (y: 72.1 a 175.0 pt).",
+        "A seção seguinte \"A PERDA DO OFÍCIO\" inicia-se no bloco 1 da página 5 (y: 212.6 a 238.7 pt).",
+        "Fronteira perfeitamente delimitada no layout físico sem sobreposição ou omissão."
+      ]
+    }
+  },
+  "paragraphs_validation_matrix": [
+    {
+      "global_order": 1,
+      "paragraph_id": "para_2b0c09ec4dabcbbd538cec96",
+      "local_page_indices": [
+        0
+      ],
+      "local_page_numbers": [
+        1
+      ],
+      "blocks": [
+        "p000000_b00003"
+      ],
+      "text_start": "Imagine, em um dia inteiro, as",
+      "text_end": "estórias são equipamentos para a vida.",
+      "text_length_chars": 724,
+      "sentences_count": 6,
+      "previous_id": null,
+      "next_id": "para_181e4a6ec79986c243558a2a",
+      "section_id": "node_0354973cb948e1245ecdb01f",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "text_conformance": "verified_identical_to_source",
+      "structural_conformance": "verified_level_3_section_child",
+      "provenance_conformance": "verified_span_and_normalization_map",
+      "divergences": "none"
+    },
+    {
+      "global_order": 2,
+      "paragraph_id": "para_181e4a6ec79986c243558a2a",
+      "local_page_indices": [
+        0,
+        1
+      ],
+      "local_page_numbers": [
+        1,
+        2
+      ],
+      "blocks": [
+        "p000000_b00004",
+        "p000001_b00000"
+      ],
+      "text_start": "Dia após dia, nós procuramos uma",
+      "text_end": "mãos na direção, geralmente nos controlam.",
+      "text_length_chars": 789,
+      "sentences_count": 5,
+      "previous_id": "para_2b0c09ec4dabcbbd538cec96",
+      "next_id": "para_bbc6e07d9626cb81c22ce52c",
+      "section_id": "node_0354973cb948e1245ecdb01f",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "text_conformance": "verified_identical_to_source",
+      "structural_conformance": "verified_level_3_section_child",
+      "provenance_conformance": "verified_span_and_normalization_map",
+      "divergences": "none"
+    },
+    {
+      "global_order": 3,
+      "paragraph_id": "para_bbc6e07d9626cb81c22ce52c",
+      "local_page_indices": [
+        1
+      ],
+      "local_page_numbers": [
+        2
+      ],
+      "blocks": [
+        "p000001_b00001"
+      ],
+      "text_start": "Tradicionalmente a humanidade procurou a resposta",
+      "text_end": "ainda acreditamos: a arte da estória.",
+      "text_length_chars": 637,
+      "sentences_count": 6,
+      "previous_id": "para_181e4a6ec79986c243558a2a",
+      "next_id": "para_e0c68cbd3000c7b18edd1c30",
+      "section_id": "node_0354973cb948e1245ecdb01f",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "text_conformance": "verified_identical_to_source",
+      "structural_conformance": "verified_level_3_section_child",
+      "provenance_conformance": "verified_span_and_normalization_map",
+      "divergences": "none"
+    },
+    {
+      "global_order": 4,
+      "paragraph_id": "para_e0c68cbd3000c7b18edd1c30",
+      "local_page_indices": [
+        1
+      ],
+      "local_page_numbers": [
+        2
+      ],
+      "blocks": [
+        "p000001_b00002"
+      ],
+      "text_start": "O mundo hoje consome filmes, romances,",
+      "text_end": "ficção dá à vida sua forma”.",
+      "text_length_chars": 522,
+      "sentences_count": 3,
+      "previous_id": "para_bbc6e07d9626cb81c22ce52c",
+      "next_id": "para_f7ecb95ca5ff2c24049f6b4e",
+      "section_id": "node_0354973cb948e1245ecdb01f",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "text_conformance": "verified_identical_to_source",
+      "structural_conformance": "verified_level_3_section_child",
+      "provenance_conformance": "verified_span_and_normalization_map",
+      "divergences": "none"
+    },
+    {
+      "global_order": 5,
+      "paragraph_id": "para_f7ecb95ca5ff2c24049f6b4e",
+      "local_page_indices": [
+        1
+      ],
+      "local_page_numbers": [
+        2
+      ],
+      "blocks": [
+        "p000001_b00003"
+      ],
+      "text_start": "Alguns veem essa ânsia por estória",
+      "text_end": "levado à satisfação suprema dessas emoções.",
+      "text_length_chars": 506,
+      "sentences_count": 5,
+      "previous_id": "para_e0c68cbd3000c7b18edd1c30",
+      "next_id": "para_b559ecfaece60f312cbfbd73",
+      "section_id": "node_0354973cb948e1245ecdb01f",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "text_conformance": "verified_identical_to_source",
+      "structural_conformance": "verified_level_3_section_child",
+      "provenance_conformance": "verified_span_and_normalization_map",
+      "divergences": "none"
+    },
+    {
+      "global_order": 6,
+      "paragraph_id": "para_b559ecfaece60f312cbfbd73",
+      "local_page_indices": [
+        1,
+        2
+      ],
+      "local_page_numbers": [
+        2,
+        3
+      ],
+      "blocks": [
+        "p000001_b00004",
+        "p000002_b00000"
+      ],
+      "text_start": "No triunfo de empresários maníacos sobre",
+      "text_end": "algum sentido na anarquia da existência.",
+      "text_length_chars": 816,
+      "sentences_count": 3,
+      "previous_id": "para_f7ecb95ca5ff2c24049f6b4e",
+      "next_id": "para_a55935eddf8437c4b3efc17e",
+      "section_id": "node_0354973cb948e1245ecdb01f",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "text_conformance": "verified_identical_to_source",
+      "structural_conformance": "verified_level_3_section_child",
+      "provenance_conformance": "verified_span_and_normalization_map",
+      "divergences": "none"
+    },
+    {
+      "global_order": 7,
+      "paragraph_id": "para_a55935eddf8437c4b3efc17e",
+      "local_page_indices": [
+        2
+      ],
+      "local_page_numbers": [
+        3
+      ],
+      "blocks": [
+        "p000002_b00001"
+      ],
+      "text_start": "Ainda assim, enquanto o alcance expansivo",
+      "text_end": "mal, o resultado é a decadência.",
+      "text_length_chars": 704,
+      "sentences_count": 2,
+      "previous_id": "para_b559ecfaece60f312cbfbd73",
+      "next_id": "para_0871f09fff434ce4db71d485",
+      "section_id": "node_0354973cb948e1245ecdb01f",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "text_conformance": "verified_identical_to_source",
+      "structural_conformance": "verified_level_3_section_child",
+      "provenance_conformance": "verified_span_and_normalization_map",
+      "divergences": "none"
+    },
+    {
+      "global_order": 8,
+      "paragraph_id": "para_0871f09fff434ce4db71d485",
+      "local_page_indices": [
+        2
+      ],
+      "local_page_numbers": [
+        3
+      ],
+      "blocks": [
+        "p000002_b00002"
+      ],
+      "text_start": "Estórias falsas e defeituosas substituem substância",
+      "text_end": "“… o centro não pode suportar”.",
+      "text_length_chars": 874,
+      "sentences_count": 10,
+      "previous_id": "para_a55935eddf8437c4b3efc17e",
+      "next_id": "para_8f55abb4ecd89868fb5fd3f1",
+      "section_id": "node_0354973cb948e1245ecdb01f",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "text_conformance": "verified_identical_to_source",
+      "structural_conformance": "verified_level_3_section_child",
+      "provenance_conformance": "verified_span_and_normalization_map",
+      "divergences": "none"
+    },
+    {
+      "global_order": 9,
+      "paragraph_id": "para_8f55abb4ecd89868fb5fd3f1",
+      "local_page_indices": [
+        2,
+        3
+      ],
+      "local_page_numbers": [
+        3,
+        4
+      ],
+      "blocks": [
+        "p000002_b00003",
+        "p000003_b00000"
+      ],
+      "text_start": "A cada ano, Hollywood produz e/ou",
+      "text_end": "algo um pouco acima da média.",
+      "text_length_chars": 781,
+      "sentences_count": 7,
+      "previous_id": "para_0871f09fff434ce4db71d485",
+      "next_id": "para_a3ce76e1e88414099fa100f1",
+      "section_id": "node_0354973cb948e1245ecdb01f",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "text_conformance": "verified_identical_to_source",
+      "structural_conformance": "verified_level_3_section_child",
+      "provenance_conformance": "verified_span_and_normalization_map",
+      "divergences": "none"
+    },
+    {
+      "global_order": 10,
+      "paragraph_id": "para_a3ce76e1e88414099fa100f1",
+      "local_page_indices": [
+        3
+      ],
+      "local_page_numbers": [
+        4
+      ],
+      "blocks": [
+        "p000003_b00001"
+      ],
+      "text_start": "Nos anos 90, o dinheiro usado",
+      "text_end": "da melhor escrita dos últimos tempos.",
+      "text_length_chars": 490,
+      "sentences_count": 3,
+      "previous_id": "para_8f55abb4ecd89868fb5fd3f1",
+      "next_id": "para_58b7887a467321e71e1b501f",
+      "section_id": "node_0354973cb948e1245ecdb01f",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "text_conformance": "verified_identical_to_source",
+      "structural_conformance": "verified_level_3_section_child",
+      "provenance_conformance": "verified_span_and_normalization_map",
+      "divergences": "none"
+    },
+    {
+      "global_order": 11,
+      "paragraph_id": "para_58b7887a467321e71e1b501f",
+      "local_page_indices": [
+        3
+      ],
+      "local_page_numbers": [
+        4
+      ],
+      "blocks": [
+        "p000003_b00002"
+      ],
+      "text_start": "Muitos roteiristas, porém, não enfrentam esse",
+      "text_end": "de cartaz e será piedosamente esquecida.",
+      "text_length_chars": 587,
+      "sentences_count": 6,
+      "previous_id": "para_a3ce76e1e88414099fa100f1",
+      "next_id": "para_d78abb3c9e9bd65d1eef9934",
+      "section_id": "node_0354973cb948e1245ecdb01f",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "text_conformance": "verified_identical_to_source",
+      "structural_conformance": "verified_level_3_section_child",
+      "provenance_conformance": "verified_span_and_normalization_map",
+      "divergences": "none"
+    },
+    {
+      "global_order": 12,
+      "paragraph_id": "para_d78abb3c9e9bd65d1eef9934",
+      "local_page_indices": [
+        3
+      ],
+      "local_page_numbers": [
+        4
+      ],
+      "blocks": [
+        "p000003_b00003"
+      ],
+      "text_start": "Ainda assim, Hollywood não apenas sobrevive,",
+      "text_end": "declínio na qualidade dos filmes europeus.",
+      "text_length_chars": 478,
+      "sentences_count": 4,
+      "previous_id": "para_58b7887a467321e71e1b501f",
+      "next_id": "para_3eb97501ddcc94ce0ced8c8a",
+      "section_id": "node_0354973cb948e1245ecdb01f",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "text_conformance": "verified_identical_to_source",
+      "structural_conformance": "verified_level_3_section_child",
+      "provenance_conformance": "verified_span_and_normalization_map",
+      "divergences": "none"
+    },
+    {
+      "global_order": 13,
+      "paragraph_id": "para_3eb97501ddcc94ce0ced8c8a",
+      "local_page_indices": [
+        3
+      ],
+      "local_page_numbers": [
+        4
+      ],
+      "blocks": [
+        "p000003_b00004"
+      ],
+      "text_start": "Os cineastas europeus hoje culpam uma",
+      "text_end": "vácuo a ser preenchido por Hollywood.",
+      "text_length_chars": 731,
+      "sentences_count": 8,
+      "previous_id": "para_d78abb3c9e9bd65d1eef9934",
+      "next_id": "para_8c47429716e83180bce7443a",
+      "section_id": "node_0354973cb948e1245ecdb01f",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "text_conformance": "verified_identical_to_source",
+      "structural_conformance": "verified_level_3_section_child",
+      "provenance_conformance": "verified_span_and_normalization_map",
+      "divergences": "none"
+    },
+    {
+      "global_order": 14,
+      "paragraph_id": "para_8c47429716e83180bce7443a",
+      "local_page_indices": [
+        4
+      ],
+      "local_page_numbers": [
+        5
+      ],
+      "blocks": [
+        "p000004_b00000"
+      ],
+      "text_start": "Hoje, porém, filmes asiáticos viajam pela",
+      "text_end": "e a habilidade de contá-las belamente.",
+      "text_length_chars": 411,
+      "sentences_count": 2,
+      "previous_id": "para_3eb97501ddcc94ce0ced8c8a",
+      "next_id": "para_9a2f43e413c74e6ca969c7ad",
+      "section_id": "node_0354973cb948e1245ecdb01f",
+      "chapter_id": "node_01abfd94af1f8ecc7a287936",
+      "text_conformance": "verified_identical_to_source",
+      "structural_conformance": "verified_level_3_section_child",
+      "provenance_conformance": "verified_span_and_normalization_map",
+      "divergences": "none"
+    }
+  ],
+  "tests_summary": {
+    "test_file": "tests/test_tarefa_001.py",
+    "total_tests": 10,
+    "passed": 10,
+    "failed": 0,
+    "status": "passed"
+  },
+  "historical_review_comparison": {
+    "historical_file": "reviews/tarefa-001-v1.json",
+    "historical_decision": "confirmed",
+    "historical_version": "corpus_d43918f06609b65f21f89425 (v0.2.0)",
+    "id_evolution": {
+      "section_node_id": "node_2698e965313687d1be33bd57 (v0.2.0) -> node_0354973cb948e1245ecdb01f (v0.2.3)",
+      "element_id": "elem_f15721caf1b29b28936af66f (v0.2.0) -> elem_9f98684d4b7080f8a75d7228 (v0.2.3)",
+      "parent_id": "node_0357e0c292c6ecffe3791f27 (v0.2.0) -> node_01abfd94af1f8ecc7a287936 (v0.2.3)"
+    },
+    "consistency": "Estrutura, tipografia, geometria (bbox), limites e parágrafos mantêm correspondência de identidade 1:1 comprovada por linhagem.",
+    "human_approval_status": "Nenhuma das decisões anteriores ou presentes constitui aprovação humana. Mantém-se review_required."
+  },
+  "quality_gate": {
+    "quality_status": "review_required",
+    "chunking_gate_allowed": false,
+    "blocking_reason": "Conformidade com a regra D: pendências globais da versão 0.2.3 permanecem em aberto."
+  }
+}

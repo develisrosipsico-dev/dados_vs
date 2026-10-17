@@ -1,0 +1,104 @@
+{
+  "task": "tarefa-002",
+  "name": "Execução e validação da seção A PERDA DO OFÍCIO",
+  "operational_status": "verified_existing",
+  "timestamp": "2026-10-17T05:22:30Z",
+  "corpus_examined": {
+    "version": "corpus_9be43285a4ba3bc831b26b9e",
+    "version_tag": "0.2.3",
+    "location": "corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3",
+    "document_id": "doc_68538e2dac8d252a47d272de",
+    "pdf_path": "story-capitulo-1.pdf",
+    "pdf_sha256": "dabd10538ffdc866c6fa24187ffb1b9f784f647a01d5286a9c6a91cd7015633d"
+  },
+  "target_section": {
+    "title": "A PERDA DO OFÍCIO",
+    "classification": "section",
+    "level": 3,
+    "current_node_id": "node_74a997edbbc24ce02939270a",
+    "historical_node_id_0_2_0": "node_6e1afe030552a2892149acd5",
+    "element_id": "elem_8715e1661eb6668fac9493dc",
+    "parent_id": "node_01abfd94af1f8ecc7a287936",
+    "parent_title": "O PROBLEMA DA ESTÓRIA",
+    "source_span": {
+      "page_index": 4,
+      "page_local": 5,
+      "block_id": "p000004_b00001",
+      "bbox": [
+        76.9921875,
+        212.6280059814453,
+        283.47186279296875,
+        238.67901611328125
+      ],
+      "char_start": 412,
+      "char_end": 429
+    }
+  },
+  "visual_inspection": {
+    "pages_inspected": [
+      5,
+      6,
+      7
+    ],
+    "rendered_images": [
+      "execution_evidence/tarefa-002/pagina_local_05.png",
+      "execution_evidence/tarefa-002/pagina_local_06.png",
+      "execution_evidence/tarefa-002/pagina_local_07.png"
+    ],
+    "observations": [
+      "Título \"A PERDA DO OFÍCIO\" visível na página local 5 (bloco 1, bbox [77.0, 212.6, 283.5, 238.7]).",
+      "Tipografia CenturyGothic-Bold (21.25 pt), caixa alta, alinhado à margem esquerda.",
+      "Seção inicia após o parágrafo 14 (página 5, bloco 0) e antes do parágrafo 15 (página 5, bloco 2).",
+      "Parágrafo 27 encerra na página 7 (bloco 4); seção seguinte \"O IMPERATIVO DA ESTÓRIA\" inicia na página 8 (bloco 0).",
+      "Nenhuma omissão, sobreposição ou incorporação indevida detectada."
+    ]
+  },
+  "paragraphs_validation_matrix_summary": {
+    "count": 13,
+    "global_orders": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "navigation_reciprocal": true,
+    "source_spans_reconstruct_text_raw": true,
+    "normalization_map_effective_validation": true,
+    "divergences": "none"
+  },
+  "tests_summary": {
+    "test_file": "tests/test_tarefa_002.py",
+    "total_tests": 10,
+    "passed": 10,
+    "failed": 0,
+    "status": "passed",
+    "regression_suite": "90 passed, 5 warnings (full suite)"
+  },
+  "historical_review_comparison": {
+    "historical_file": "reviews/tarefa-002-v1.json",
+    "historical_decision": "confirmed",
+    "historical_version": "corpus_d43918f06609b65f21f89425 (v0.2.0)",
+    "id_evolution": {
+      "section_node_id": "node_6e1afe030552a2892149acd5 (v0.2.0) -> node_74a997edbbc24ce02939270a (v0.2.3)",
+      "element_id": "elem_8715e1661eb6668fac9493dc (v0.2.3)",
+      "parent_id": "node_01abfd94af1f8ecc7a287936 (v0.2.3)"
+    },
+    "consistency": "Estrutura, tipografia, geometria, limites e parágrafos mantêm correspondência 1:1 comprovada por linhagem.",
+    "human_approval_status": "Nenhuma decisão automatizada substitui aprovação humana. Mantém-se review_required."
+  },
+  "quality_gate": {
+    "quality_status": "review_required",
+    "chunking_gate_allowed": false,
+    "blocking_reason": "Conformidade com a regra D: pendências globais da versão 0.2.3 permanecem em aberto (12 itens)."
+  },
+  "regularization_note": "Regularização executada em 2026-10-17T05:22:30Z. Testes direcionados (10/10) e suíte completa (90/90) confirmados. Nenhuma falha. Nenhuma alteração no corpus 0.2.3. Estado permanece verified_existing."
+}

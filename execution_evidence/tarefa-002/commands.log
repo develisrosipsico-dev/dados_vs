@@ -1,0 +1,14 @@
+commands executed: python3 -c (hash check), python3 -c (node locate), python3 -c (paragraph list), python3 -c (render pages), python3 -c (block inspect), ./venv/bin/pytest -v tests/test_tarefa_002.py, ./venv/bin/pytest --tb=no -q
+=== Regularização Tarefa 002 ===
+Data UTC: 2026-10-17T05:23:22Z
+Comandos executados:
+  ./venv/bin/pytest -v tests/test_tarefa_002.py
+  ./venv/bin/pytest --tb=no -q
+  date -u +%Y-%m-%dT%H:%M:%SZ
+=== RESUMO DA REGULARIZAÇÃO TAREFA 002 ===
+Data UTC: 2026-10-17T05:22:30Z
+Estado: verified_existing (mantido)
+Testes direcionados: 10/10 PASS
+Suíte completa: 90/90 PASS
+Corpus 0.2.3: não alterado
+chunking_gate.allowed = false

@@ -1,0 +1,22 @@
+{
+  "commands.log": {
+    "size": 528,
+    "sha256": "7c1ed1c05b44b882dd5513257b9a3060250fff698aa50f8d3edaa1a6cab62c2f"
+  },
+  "execution.json": {
+    "size": 15832,
+    "sha256": "c79d924b5c1cce861c53eadfa604229321bca91c64b8bf1e55b4f28da6ac9f8d"
+  },
+  "pagina_local_01.png": {
+    "size": 186796,
+    "sha256": "12f62066952385e2c13a4dd9620dbd36e5aea8640d515242250974baccb15273"
+  },
+  "pagina_local_05.png": {
+    "size": 256177,
+    "sha256": "a682bb07d795addebcb29c61d6453dec2926e2b300d63952f061f3c86a1b6eaa"
+  },
+  "tests.log": {
+    "size": 1964,
+    "sha256": "c6decf96e904649a06b22cb0061cc17dc4e05648dd0c5a2a51c81d9d12db227b"
+  }
+}
