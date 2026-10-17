@@ -1,0 +1,321 @@
+{
+  "tarefa": "015",
+  "versao": "v1",
+  "data": "2026-10-17",
+  "estado_corpus": "review_required",
+  "chunking_gate": {
+    "allowed": false,
+    "motivo": "Tarefa 015 não resolve as 14 pendências documentais; não consolida revisões 001-014"
+  },
+  "livro_integral": {
+    "caminho": "corpora/story.pdf",
+    "sha256": "5360f54ed5d6e27414e7d06ca915f113235c010f614cf363c0e36d74cea0c35b",
+    "paginas": 493,
+    "tamanho_bytes": 5937684,
+    "formato_pdf": "PDF 1.4",
+    "metadados_internos": {
+      "title": "Story",
+      "author": "Robert Mckee",
+      "creator": "calibre (4.99.5)",
+      "producer": "calibre (4.99.5)",
+      "creationDate": "D:20261016143757+00'00",
+      "modDate": "D:20261016143757+00'00"
+    },
+    "identidade_confirmada": true,
+    "corresponde_ao_source_context": true,
+    "nota": "O arquivo corresponde ao original_sha256 (5360f54e...) registrado em metadata.json do corpus 0.2.0"
+  },
+  "recorte": {
+    "arquivo": "story-capitulo-1.pdf",
+    "sha256": "dabd10538ffdc866c6fa24187ffb1b9f784f647a01d5286a9c6a91cd7015633d",
+    "paginas_locais": 18,
+    "indices_locais": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+    "corpus_versao": "corpus_9be43285a4ba3bc831b26b9e (referenciado na tarefa; arquivo 0.2.0 presente)"
+  },
+  "correspondencia_paginas": {
+    "hipotese_verificada": true,
+    "metodo": "Comparação de conteúdo textual (título do capítulo e texto inicial) entre recorte e integral",
+    "mapeamento": [
+      {"local": 1, "integral_fisica": 19, "integral_indice": 18, "confirma_texto": "O PROBLEMA DA ESTÓRIA", "confianca": "alta"},
+      {"local": 2, "integral_fisica": 20, "integral_indice": 19, "confirma_texto": "continuação do capítulo", "confianca": "alta"},
+      {"local": 3, "integral_fisica": 21, "integral_indice": 20, "confirma_texto": "continuação do capítulo", "confianca": "alta"},
+      {"local": 4, "integral_fisica": 22, "integral_indice": 21, "confirma_texto": "continuação do capítulo", "confianca": "alta"},
+      {"local": 5, "integral_fisica": 23, "integral_indice": 22, "confirma_texto": "continuação do capítulo", "confianca": "alta"},
+      {"local": 6, "integral_fisica": 24, "integral_indice": 23, "confirma_texto": "continuação do capítulo", "confianca": "alta"},
+      {"local": 7, "integral_fisica": 25, "integral_indice": 24, "confirma_texto": "continuação do capítulo", "confianca": "alta"},
+      {"local": 8, "integral_fisica": 26, "integral_indice": 25, "confirma_texto": "O IMPERATIVO DA ESTÓRIA", "confianca": "alta"},
+      {"local": 9, "integral_fisica": 27, "integral_indice": 26, "confirma_texto": "continuação do capítulo", "confianca": "alta"},
+      {"local": 10, "integral_fisica": 28, "integral_indice": 27, "confirma_texto": "continuação do capítulo", "confianca": "alta"},
+      {"local": 11, "integral_fisica": 29, "integral_indice": 28, "confirma_texto": "Boa estória bem contada", "confianca": "alta"},
+      {"local": 12, "integral_fisica": 30, "integral_indice": 29, "confirma_texto": "continuação do capítulo", "confianca": "alta"},
+      {"local": 13, "integral_fisica": 31, "integral_indice": 30, "confirma_texto": "continuação do capítulo", "confianca": "alta"},
+      {"local": 14, "integral_fisica": 32, "integral_indice": 31, "confirma_texto": "continuação do capítulo", "confianca": "alta"},
+      {"local": 15, "integral_fisica": 33, "integral_indice": 32, "confirma_texto": "continuação do capítulo", "confianca": "alta"},
+      {"local": 16, "integral_fisica": 34, "integral_indice": 33, "confirma_texto": "continuação do capítulo", "confianca": "alta"},
+      {"local": 17, "integral_fisica": 35, "integral_indice": 34, "confirma_texto": "continuação do capítulo", "confianca": "alta"},
+      {"local": 18, "integral_fisica": 36, "integral_indice": 35, "confirma_texto": "continuação do capítulo", "confianca": "alta"}
+    ],
+    "nota": "A correspondência proposta (local 1 -> física 19; local 18 -> física 36) é confirmada pelo conteúdo textual. Não se inferiu paginação impressa."
+  },
+  "evidencias_bibliograficas": {
+    "fonte_integral": "corpora/story.pdf",
+    "fonte_recorte": "story-capitulo-1.pdf",
+    "fonte_exemplo": "examples/story_bibliography.json",
+    "campos": [
+      {
+        "campo": "author",
+        "valor": "Robert Mckee",
+        "estado": "verified",
+        "evidencia_arquivo": "corpora/story.pdf",
+        "evidencia_pagina_fisica": 4,
+        "evidencia_trecho": "M113s Mckee, Robert / Story : substância, estrutura, estilo e os princípios da escrita de roteiro / Robert Mckee",
+        "fonte_natureza": "textual (ficha catalográfica)",
+        "conflito": null
+      },
+      {
+        "campo": "title",
+        "valor": "Story",
+        "estado": "verified",
+        "evidencia_arquivo": "corpora/story.pdf",
+        "evidencia_pagina_fisica": 4,
+        "evidencia_trecho": "Story : substância, estrutura, estilo e os princípios da escrita de roteiro",
+        "fonte_natureza": "textual (ficha catalográfica)",
+        "conflito": null
+      },
+      {
+        "campo": "publisher",
+        "valor": "Arte & Letra",
+        "estado": "verified",
+        "evidencia_arquivo": "corpora/story.pdf",
+        "evidencia_pagina_fisica": 4,
+        "evidencia_trecho": "Curitiba : Arte & Letra, 2006.",
+        "fonte_natureza": "textual (ficha catalográfica)",
+        "conflito": null,
+        "nota_exemplo": "O exemplo examples/story_bibliography.json declara 'Arte & Letra' na página 3; no integral, a evidência está na página física 4 (ficha catalográfica). A declaração do exemplo é consistente, mas a localização de página difere."
+      },
+      {
+        "campo": "year",
+        "valor": 2006,
+        "estado": "verified",
+        "evidencia_arquivo": "corpora/story.pdf",
+        "evidencia_pagina_fisica": 4,
+        "evidencia_trecho": "Curitiba : Arte & Letra, 2006.",
+        "fonte_natureza": "textual (ficha catalográfica)",
+        "conflito": null,
+        "nota_exemplo": "O exemplo declara 2006; confirmado na ficha catalográfica. Não há indicação de edição separada."
+      },
+      {
+        "campo": "edition",
+        "valor": "6a reimpressão",
+        "estado": "verified",
+        "evidencia_arquivo": "corpora/story.pdf",
+        "evidencia_pagina_fisica": 4,
+        "evidencia_trecho": "6a reimpressão",
+        "fonte_natureza": "textual (ficha catalográfica)",
+        "conflito": null,
+        "nota": "Não é uma 'edição' no sentido de edição revisada; é uma reimpressão. O campo edition permanece como '6a reimpressão' sem inferir edição distinta."
+      },
+      {
+        "campo": "translator",
+        "valor": "Chico Marés",
+        "estado": "verified",
+        "evidencia_arquivo": "corpora/story.pdf",
+        "evidencia_pagina_fisica": 4,
+        "evidencia_trecho": "tradução de Chico Marés",
+        "fonte_natureza": "textual (ficha catalográfica)",
+        "conflito": null
+      },
+      {
+        "campo": "isbn",
+        "valor": "978-85-60499-007",
+        "estado": "verified",
+        "evidencia_arquivo": "corpora/story.pdf",
+        "evidencia_pagina_fisica": 4,
+        "evidencia_trecho": "ISBN 978-85-60499-007",
+        "fonte_natureza": "textual (ficha catalográfica)",
+        "conflito": null
+      },
+      {
+        "campo": "language",
+        "valor": "pt-BR",
+        "estado": "proposed_unverified",
+        "evidencia_arquivo": null,
+        "evidencia_pagina_fisica": null,
+        "evidencia_trecho": null,
+        "fonte_natureza": "inferido do idioma do texto e da editora brasileira",
+        "conflito": null,
+        "nota": "Não há declaração explícita 'Idioma: Português' na ficha; inferido pelo conteúdo. Mantido como proposed_unverified."
+      },
+      {
+        "campo": "location",
+        "valor": "Curitiba",
+        "estado": "verified",
+        "evidencia_arquivo": "corpora/story.pdf",
+        "evidencia_pagina_fisica": 4,
+        "evidencia_trecho": "Curitiba : Arte & Letra, 2006.",
+        "fonte_natureza": "textual (ficha catalográfica)",
+        "conflito": null
+      },
+      {
+        "campo": "chapter_title",
+        "valor": "O problema da estória",
+        "estado": "verified",
+        "evidencia_arquivo": "corpora/story.pdf",
+        "evidencia_pagina_fisica": 19,
+        "evidencia_trecho": "O PROBLEMA DA ESTÓRIA",
+        "fonte_natureza": "textual (título impresso no início do capítulo)",
+        "conflito": null
+      },
+      {
+        "campo": "printed_page_number",
+        "valor": null,
+        "estado": "unknown",
+        "evidencia_arquivo": null,
+        "evidencia_pagina_fisica": null,
+        "evidencia_trecho": null,
+        "fonte_natureza": "não verificado visualmente",
+        "conflito": null,
+        "nota": "A paginação impressa não foi verificada visualmente. Os índices físicos (19-36) são confirmados; os números impressos permanecem desconhecidos."
+      },
+      {
+        "campo": "bibliographic_evidence_example",
+        "valor": "examples/story_bibliography.json",
+        "estado": "verified_with_correction",
+        "evidencia_arquivo": "examples/story_bibliography.json",
+        "evidencia_pagina_fisica": 3,
+        "evidencia_trecho": "Curitiba : Arte & Letra, 2006.",
+        "fonte_natureza": "arquivo de exemplo",
+        "conflito": "A página declarada no exemplo (3) não corresponde à página física do integral onde a evidência aparece (4). A declaração de conteúdo é consistente; a localização de página é corrigida.",
+        "nota": "Não substituído no corpus; apenas registrado como inconsistência de localização."
+      }
+    ]
+  },
+  "identidades_documentais": {
+    "obra_intelectual": {
+      "titulo": "Story",
+      "autor": "Robert Mckee",
+      "identificacao": "Obra intelectual independente de edição ou tradução"
+    },
+    "edicao_bibliografica": {
+      "editora": "Arte & Letra",
+      "ano_publicacao": 2006,
+      "local": "Curitiba",
+      "tradutor": "Chico Marés",
+      "isbn": "978-85-60499-007",
+      "reimpressao": "6a",
+      "identificacao": "Edição brasileira traduzida, publicada por Arte & Letra, Curitiba, 2006"
+    },
+    "fragmento_processado": {
+      "arquivo": "story-capitulo-1.pdf",
+      "sha256": "dabd10538ffdc866c6fa24187ffb1b9f784f647a01d5286a9c6a91cd7015633d",
+      "paginas_locais": 18,
+      "correspondencia_integral": "páginas físicas 19-36 (índices 18-35)",
+      "capitulo": "O problema da estória",
+      "identificacao": "Recorte de 18 páginas do capítulo 1 do livro integral"
+    },
+    "nota": "As três identidades são mantidas separadas. O fragmento processado não é associado a outra edição."
+  },
+  "testes_executados": [
+    {
+      "teste": "Identidade e integridade do livro integral",
+      "resultado": "PASSOU",
+      "evidencia": "corpora/story.pdf: 493 páginas, sha256=5360f54e..., metadados internos confirmam 'Story' / 'Robert Mckee'"
+    },
+    {
+      "teste": "Distinção entre PDF integral e recorte",
+      "resultado": "PASSOU",
+      "evidencia": "Recorte (18 páginas, sha256=dabd105...) vs Integral (493 páginas, sha256=5360f54e...)"
+    },
+    {
+      "teste": "Conferência da edição bibliográfica",
+      "resultado": "PASSOU",
+      "evidencia": "Ficha catalográfica (página física 4) confirma editora, ano, ISBN, tradutor, reimpressão"
+    },
+    {
+      "teste": "Proveniência de autor e título",
+      "resultado": "PASSOU",
+      "evidencia": "Metadados internos (author=Robert Mckee, title=Story) + ficha catalográfica"
+    },
+    {
+      "teste": "Proveniência de editora, ano e local",
+      "resultado": "PASSOU",
+      "evidencia": "Ficha catalográfica: 'Curitiba : Arte & Letra, 2006.'"
+    },
+    {
+      "teste": "Proveniência de tradutor, edição e ISBN",
+      "resultado": "PASSOU",
+      "evidencia": "Ficha catalográfica: 'tradução de Chico Marés', '6a reimpressão', 'ISBN 978-85-60499-007'"
+    },
+    {
+      "teste": "Correção dos estados dos campos ausentes",
+      "resultado": "PASSOU",
+      "evidencia": "Campos ausentes (language, printed_page_number) mantidos como proposed_unverified / unknown, sem invenção"
+    },
+    {
+      "teste": "Validação das evidências bibliográficas",
+      "resultado": "PASSOU",
+      "evidencia": "Exemplo story_bibliography.json verificado; inconsistência de localização registrada, não corrigida silenciosamente"
+    },
+    {
+      "teste": "Correspondência entre as 18 páginas e o livro completo",
+      "resultado": "PASSOU",
+      "evidencia": "Todas as 18 páginas (físicas 19-36) confirmadas como pertencentes ao capítulo 'O PROBLEMA DA ESTÓRIA'"
+    },
+    {
+      "teste": "Separação entre paginação física e impressa",
+      "resultado": "PASSOU",
+      "evidencia": "Índices físicos (0-17 local; 18-35 integral) registrados separadamente de printed_page_number (null)"
+    },
+    {
+      "teste": "Consistência de source_context",
+      "resultado": "PASSOU",
+      "evidencia": "original_sha256 (5360f54e...) corresponde ao arquivo corpora/story.pdf"
+    },
+    {
+      "teste": "Preservação dos 72 textos brutos",
+      "resultado": "PASSOU",
+      "evidencia": "Nenhuma modificação feita nos arquivos do corpus; apenas registro externo produzido"
+    },
+    {
+      "teste": "Ausência de modificações em parágrafos, notas e elementos",
+      "resultado": "PASSOU",
+      "evidencia": "Nenhum arquivo do corpus 0.2.0 alterado"
+    },
+    {
+      "teste": "Preservação das Tarefas 001-014",
+      "resultado": "PASSOU",
+      "evidencia": "Nenhuma revisão anterior reaberta; 14 pendências mantidas"
+    },
+    {
+      "teste": "Integridade da versão e da linhagem",
+      "resultado": "PASSOU",
+      "evidencia": "Registro tarefa-015-v1.json produzido sem sobrescrever versão 0.2.0/0.2.3"
+    },
+    {
+      "teste": "Preservação das pendências restantes",
+      "resultado": "PASSOU",
+      "evidencia": "As 14 pendências documentais permanecem; chunking_gate.allowed = false"
+    },
+    {
+      "teste": "Manutenção do bloqueio de chunking",
+      "resultado": "PASSOU",
+      "evidencia": "chunking_gate.allowed = false mantido; review_required preservado"
+    }
+  ],
+  "artefatos_derivados": [
+    "reviews/tarefa-015-v1.json"
+  ],
+  "pendencias_globais_nao_resolvidas": [
+    "As 14 pendências documentais do relatório REVISAO_DOCUMENTAL_0_2.md permanecem abertas.",
+    "A proposta editorial 'pré-requisitos' permanece não verificada.",
+    "A certificação global da fidelidade textual não foi realizada.",
+    "O sistema adaptativo de aprendizado documental não foi implementado.",
+    "Chunking, BM25, embeddings, E5 e RAG não foram iniciados."
+  ],
+  "estado_final": {
+    "corpus": "review_required (não alterado)",
+    "chunking_gate": "allowed = false",
+    "tarefa_015": "concluída com registro auditável",
+    "proxima_etapa": "Aguardar conferência do resultado antes de qualquer etapa posterior (não iniciar chunking ou revisão das 14 pendências)"
+  }
+}

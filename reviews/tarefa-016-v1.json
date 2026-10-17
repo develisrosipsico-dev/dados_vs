@@ -1,0 +1,235 @@
+{
+  "tarefa": "016",
+  "versao": "v1",
+  "data": "2026-10-17",
+  "tipo": "diagnostico_e_consolidacao_auditavel",
+  "objetivo": "Auditar e reconciliar registros das Tarefas 001-015 com o estado atual do corpus, sem aprovar pendências",
+  "restricoes": [
+    "Não aprovar automaticamente nenhuma pendência",
+    "Não reabrir Tarefas 001-014",
+    "Não alterar o corpus 0.2.0/0.2.3",
+    "Manter chunking_gate.allowed = false",
+    "Manter review_required"
+  ],
+  "corpus_auditado": {
+    "versao_local": "corpus_d43918f06609b65f21f89425 (0.2.0 presente em corpora/story-capitulo-1-revisao-documental-v0.2.0/)",
+    "arquivo_pdf_recorte": "story-capitulo-1.pdf",
+    "sha256_pdf_recorte": "dabd10538ffdc866c6fa24187ffb1b9f784f647a01d5286a9c6a91cd7015633d",
+    "paginas_locais": 18,
+    "paragrafos": 72,
+    "versao_0_2_3_referenciada": "corpus_9be43285a4ba3bc831b26b9e (referenciada na tarefa 015; arquivo físico não presente no workspace)",
+    "nota_versao": "A Tarefa 015 não produziu uma nova versão derivada persistida; apenas o registro reviews/tarefa-015-v1.json. O corpus 0.2.0 permanece o artefato local."
+  },
+  "revisoes_001_015": {
+    "total_registros_lidos": 15,
+    "registros_presentes": [
+      "tarefa-001-v1.json",
+      "tarefa-002-v1.json",
+      "tarefa-003-v1.json",
+      "tarefa-004-v1.json",
+      "tarefa-005-v1.json",
+      "tarefa-006-v1.json",
+      "tarefa-007-v1.json",
+      "tarefa-008-v1.json",
+      "tarefa-009-v1.json",
+      "tarefa-010-v1.json",
+      "tarefa-011-v1.json",
+      "tarefa-012-v1.json",
+      "tarefa-013-v1.json",
+      "tarefa-014-v1.json",
+      "tarefa-015-v1.json"
+    ],
+    "natureza_revisor": "assistant_documentary_review (sem aprovação humana declarada em todos os registros)",
+    "resumo_por_grupo": {
+      "001_007_hierarquia": {
+        "tarefas": ["001", "002", "003", "004", "005", "006", "007"],
+        "unidades_revisadas": "7 nós de hierarquia (seções/subseções)",
+        "estado_registrado": "confirmed (revisão automatizada)",
+        "correspondencia_validation_report": "7 itens 'hierarchy_requires_review' ainda pendentes no validation_report.json",
+        "nota": "As decisões de revisão automatizada (001-007) não resolveram as pendências de hierarquia registradas no relatório global."
+      },
+      "008_011_blocos_destacados": {
+        "tarefas": ["008", "009", "010", "011"],
+        "unidades_revisadas": "4 blocos destacados (citações formatadas)",
+        "estado_registrado": "confirmed (revisão automatizada)",
+        "correspondencia_validation_report": "4 itens 'formatted_quote_requires_review' ainda pendentes",
+        "nota": "As revisões dos blocos destacados não eliminaram as pendências de citação no relatório global."
+      },
+      "012_013_hifenizacao": {
+        "tarefas": ["012", "013"],
+        "unidades_revisadas": [
+          "para_2132df9c18928f71a0f20a40 (revela-se)",
+          "para_e8a04dd4bb3175102d71fe8f (pré-requisi-tos)"
+        ],
+        "estado_registrado": "confirmed (revisão automatizada)",
+        "correspondencia_validation_report": "2 itens 'hyphenation_candidate' ainda pendentes (event_000029, event_000189)",
+        "nota": "As revisões de hifenização não resolveram os candidatos de hifenização no relatório global."
+      },
+      "014_incompatibilidade_visual_textual": {
+        "tarefa": "014",
+        "unidade_revisada": "elemento marginal (glifo 'Ó')",
+        "estado_registrado": "confirmed (revisão automatizada)",
+        "correspondencia_validation_report": "1 item 'element_requires_review' (elem_1e298fb4d4a0738c20b58d7a, kind=marginal_glyph_candidate) ainda pendente",
+        "nota": "A revisão do elemento marginal não resolveu a pendência no relatório global."
+      },
+      "015_reconciliacao_bibliografica": {
+        "tarefa": "015",
+        "unidade_revisada": "metadados bibliográficos (não unidades textuais do capítulo)",
+        "estado_registrado": "concluída (registro auditável produzido; nenhuma alteração no corpus)",
+        "correspondencia_validation_report": "Nenhuma alteração no validation_report; 14 pendências mantidas",
+        "nota": "A Tarefa 015 é exclusivamente bibliográfica; não afeta as pendências documentais do capítulo."
+      }
+    },
+    "conclusao_revisoes": "Nenhuma das 15 tarefas (001-015) resolveu as 14 pendências documentais registradas no validation_report.json. As decisões registradas são de revisão automatizada, sem aprovação humana, e não alteraram o estado do corpus."
+  },
+  "pendencias_atuais": {
+    "fonte": "corpora/story-capitulo-1-revisao-documental-v0.2.0/validation_report.json",
+    "contagem_registrada": 14,
+    "nota_sobre_contagem": "O usuário menciona '12 itens pendentes'; o arquivo local registra 14. A diferença (14 vs 12) é registrada sem correção do arquivo fonte.",
+    "itens": [
+      {
+        "codigo": "formatted_quote_requires_review",
+        "contagem": 4,
+        "unidades": [
+          "para_9fadb7abe2268da24f99f6da",
+          "para_62857398ab09db0511502dc1",
+          "para_686c6e7b89ac2f0b6c309b09",
+          "para_0a7b2d7830743a84b0bbda13"
+        ],
+        "revisao_correspondente": "Tarefas 008-011 (blocos destacados)",
+        "estado_atual": "pendente",
+        "motivo_continua_pendente": "A revisão automatizada confirmou o bloco, mas não aprovou a classificação de citação; o relatório global exige revisão manual.",
+        "acao_necessaria": "Revisão humana das 4 citações formatadas."
+      },
+      {
+        "codigo": "hierarchy_requires_review",
+        "contagem": 7,
+        "unidades": [
+          "node_2698e965313687d1be33bd57",
+          "node_6e1afe030552a2892149acd5",
+          "node_3c218d9bc62678cc2593ecbf",
+          "node_0e0eb60ba5619b74beb871f0",
+          "node_c6e5dc0164367d465c9db04d",
+          "node_b336e49012dedd8ae408cf0f",
+          "node_8e6704a148cca3f0b9dbd2d0"
+        ],
+        "revisao_correspondente": "Tarefas 001-007 (hierarquia documental)",
+        "estado_atual": "pendente",
+        "motivo_continua_pendente": "As revisões automatizadas confirmaram os nós, mas a subseção provisória ('Boa estória bem contada') e outros níveis hierárquicos permanecem com revisão pendente.",
+        "acao_necessaria": "Revisão humana dos 7 níveis hierárquicos (6 seções + 1 subseção provisória)."
+      },
+      {
+        "codigo": "element_requires_review",
+        "contagem": 1,
+        "unidades": [
+          "elem_1e298fb4d4a0738c20b58d7a (kind=marginal_glyph_candidate)"
+        ],
+        "revisao_correspondente": "Tarefa 014 (incompatibilidade visual-textual marginal)",
+        "estado_atual": "pendente",
+        "motivo_continua_pendente": "O glifo marginal 'Ó' (página 7) não foi classificado definitivamente; a revisão automatizada não resolveu a pendência.",
+        "acao_necessaria": "Revisão visual do glifo marginal e classificação definitiva."
+      },
+      {
+        "codigo": "hyphenation_candidate",
+        "contagem": 2,
+        "unidades": [
+          "event_000029 / para_2132df9c18928f71a0f20a40 (revela-se)",
+          "event_000189 / para_e8a04dd4bb3175102d71fe8f (pré-requisi-tos)"
+        ],
+        "revisao_correspondente": "Tarefas 012-013 (hifenização)",
+        "estado_atual": "pendente",
+        "motivo_continua_pendente": "As revisões de hifenização mantiveram os candidatos sob revisão; a opção --join-hyphens exige corroboração.",
+        "acao_necessaria": "Revisão humana das 2 hifenizações ambíguas."
+      }
+    ],
+    "resumo_contagem": {
+      "formatted_quote_requires_review": 4,
+      "hierarchy_requires_review": 7,
+      "element_requires_review": 1,
+      "hyphenation_candidate": 2,
+      "total": 14,
+      "nota_contagem": "O arquivo validation_report.json registra 14 pendências. Se o usuário refere '12', pode haver uma contagem alternativa (excluindo 2 itens de hifenização ou 2 de citação), mas o arquivo fonte é a referência oficial."
+    }
+  },
+  "reconciliacao_versao_corpus": {
+    "versao_0_2_0_local": {
+      "arquivo": "corpora/story-capitulo-1-revisao-documental-v0.2.0/",
+      "corpus_version": "corpus_d43918f06609b65f21f89425",
+      "sha256_pdf": "dabd10538ffdc866c6fa24187ffb1b9f784f647a01d5286a9c6a91cd7015633d",
+      "sha256_pages_raw": "64e0b2d3cc7adf6c53a663470080fecf2a03ab203c55d5ed08817a248de56811",
+      "validation_report_sha256": "794068fd3b258e5e39456b928e1aeed4c1c6c4cfe6cb72aff6d5eba099860547"
+    },
+    "versao_0_2_3_referenciada": {
+      "referencia": "corpus_9be43285a4ba3bc831b26b9e",
+      "arquivo_zip_referenciado": "story-capitulo-1-revisao-documental-v0.2.3.zip",
+      "presente_no_workspace": false,
+      "nota": "A versão 0.2.3 é referenciada na tarefa 015, mas o arquivo físico não está no workspace. A reconciliação usa a versão 0.2.0 local como referência."
+    },
+    "tarefa_015_impacto": {
+      "alterou_corpus": false,
+      "alterou_validation_report": false,
+      "artefatos_derivados": ["reviews/tarefa-015-v1.json"],
+      "nota": "A Tarefa 015 produziu apenas um registro bibliográfico externo; não modificou o corpus nem o validation_report."
+    }
+  },
+  "testes_diagnostico": [
+    {
+      "teste": "Leitura dos 15 registros de revisão (001-015)",
+      "resultado": "PASSOU",
+      "evidencia": "Todos os arquivos reviews/tarefa-00X-v1.json presentes e legíveis."
+    },
+    {
+      "teste": "Leitura do validation_report.json atual",
+      "resultado": "PASSOU",
+      "evidencia": "Arquivo corpora/story-capitulo-1-revisao-documental-v0.2.0/validation_report.json lido; 14 pendências confirmadas."
+    },
+    {
+      "teste": "Verificação de alteração do corpus pela Tarefa 015",
+      "resultado": "PASSOU",
+      "evidencia": "Nenhum arquivo do corpus 0.2.0 alterado; apenas reviews/tarefa-015-v1.json criado."
+    },
+    {
+      "teste": "Reconciliação das 14 revisões com o relatório global",
+      "resultado": "PASSOU (com divergência documentada)",
+      "evidencia": "As 15 tarefas (001-015) não resolveram as 14 pendências; cada grupo de revisão corresponde a um código de pendência ainda ativo."
+    },
+    {
+      "teste": "Distinção entre revisão automatizada e aprovação humana",
+      "resultado": "PASSOU",
+      "evidencia": "Todos os registros 001-015 declaram reviewer.type = 'assistant_documentary_review'; nenhum declara aprovação humana."
+    },
+    {
+      "teste": "Preservação do bloqueio de chunking",
+      "resultado": "PASSOU",
+      "evidencia": "chunking_gate.allowed = false mantido; review_required preservado."
+    },
+    {
+      "teste": "Integridade dos 72 parágrafos",
+      "resultado": "PASSOU",
+      "evidencia": "Nenhuma alteração nos arquivos paragraphs.jsonl, elements.jsonl, structure.json."
+    },
+    {
+      "teste": "Preservação das Tarefas 001-014",
+      "resultado": "PASSOU",
+      "evidencia": "Nenhuma revisão anterior reaberta; registros originais preservados."
+    }
+  ],
+  "pendencias_globais_nao_resolvidas": [
+    "As 14 pendências documentais do validation_report.json permanecem ativas.",
+    "As 7 revisões de hierarquia (001-007) não eliminaram as 7 pendências 'hierarchy_requires_review'.",
+    "As 4 revisões de blocos destacados (008-011) não eliminaram as 4 pendências 'formatted_quote_requires_review'.",
+    "As 2 revisões de hifenização (012-013) não eliminaram as 2 pendências 'hyphenation_candidate'.",
+    "A revisão do elemento marginal (014) não eliminou a pendência 'element_requires_review'.",
+    "A proposta editorial 'pré-requisitos' permanece não verificada.",
+    "A certificação global da fidelidade textual não foi realizada.",
+    "O sistema adaptativo de aprendizado documental não foi implementado.",
+    "Chunking, BM25, embeddings, E5 e RAG não foram iniciados."
+  ],
+  "estado_final": {
+    "corpus": "review_required (não alterado pela Tarefa 016)",
+    "chunking_gate": "allowed = false",
+    "tarefa_016": "concluída (diagnóstico auditável; nenhuma aprovação concedida)",
+    "proxima_etapa": "Aguardar conferência do resultado. Nenhuma ação de chunking ou consolidação de pendências deve ser iniciada sem instrução explícita."
+  },
+  "nota_final": "Esta tarefa é exclusivamente de diagnóstico. Nenhuma pendência foi aprovada, nenhuma revisão anterior foi reaberta, e o corpus não foi alterado. O registro reviews/tarefa-016-v1.json documenta o estado real das 14 pendências (não 12) conforme o arquivo validation_report.json local."
+}
