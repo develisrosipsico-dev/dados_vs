@@ -1,0 +1,42 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.10, pytest-8.4.2, pluggy-1.6.0 -- /Users/rodrigodevellis/dados/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/rodrigodevellis/dados_vs
+configfile: pyproject.toml
+collecting ... collected 11 items
+
+tests/test_tarefa_003.py::test_pdf_integrity_and_hash PASSED             [  9%]
+tests/test_tarefa_003.py::test_corpus_version_and_metadata PASSED        [ 18%]
+tests/test_tarefa_003.py::test_section_node_hierarchy PASSED             [ 27%]
+tests/test_tarefa_003.py::test_section_contains_exactly_14_paragraphs PASSED [ 36%]
+tests/test_tarefa_003.py::test_paragraphs_global_order_sequence PASSED   [ 45%]
+tests/test_tarefa_003.py::test_paragraphs_chain_navigation PASSED        [ 54%]
+tests/test_tarefa_003.py::test_source_spans_reconstruct_text_raw PASSED  [ 63%]
+tests/test_tarefa_003.py::test_normalization_map_effective_validation PASSED [ 72%]
+tests/test_tarefa_003.py::test_block_quotes_and_references PASSED        [ 81%]
+tests/test_tarefa_003.py::test_visual_inspection_evidence PASSED         [ 90%]
+tests/test_tarefa_003.py::test_historical_review_correspondence PASSED   [100%]
+
+=============================== warnings summary ===============================
+<frozen importlib._bootstrap>:488
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute
+
+<frozen importlib._bootstrap>:488
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute
+
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type swigvarlink has no __module__ attribute
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 11 passed, 5 warnings in 0.88s ========================
+sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute
+=== TAREFA 003 - RESULTADO FINAL ===
+Data UTC: 2026-10-17T05:57:18Z
+Estado: verified_existing
+Testes: 11/11 PASS (test_tarefa_003.py)
+Regressão: 90/90 PASS (suíte completa)
+Correções: element_id corrigido, block_quote corrigido (4 no corpus), referência histórica corrigida (tarefa-003-v1.json)
+chunking_gate.allowed = false
+quality_status = review_required
