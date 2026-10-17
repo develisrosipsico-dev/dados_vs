@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/Users/rodrigodevellis/dados_vs/.venv/bin/python",
+    "/Users/rodrigodevellis/dados_vs/execution_evidence/tarefa-003/integracao-corrigida-20261017T064047989475Z/verify_integration_manifest.py"
+  ],
+  "cwd": "/Users/rodrigodevellis/dados_vs/execution_evidence/tarefa-003/integracao-corrigida-20261017T064047989475Z",
+  "finished_utc": "2026-10-17T06:41:09.578454+00:00",
+  "manifest_sha256": "3377c7cd667dfaf061b27df1f9035cbe8e6059b5ddfd295c06036751a2836a5c",
+  "checked_files": 98,
+  "errors": [],
+  "returncode": 0
+}

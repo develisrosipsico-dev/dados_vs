@@ -1,0 +1,1 @@
+{"executable": "/Users/rodrigodevellis/dados_vs/.venv/bin/python", "prefix": "/Users/rodrigodevellis/dados_vs/.venv", "base_prefix": "/Library/Frameworks/Python.framework/Versions/3.12", "python": "3.12.10 (v3.12.10:0cc81280367, Apr  8 2025, 08:47:00) [Clang 13.0.0 (clang-1300.0.29.30)]", "dependencies": {"pytest": "8.4.2", "PyMuPDF": "1.26.7"}}

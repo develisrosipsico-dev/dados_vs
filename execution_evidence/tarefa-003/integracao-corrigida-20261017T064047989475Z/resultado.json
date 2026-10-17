@@ -1,0 +1,194 @@
+{
+  "started_utc": "2026-10-17T06:40:48.134741+00:00",
+  "project": "/Users/rodrigodevellis/dados_vs",
+  "zip_sha256": "4f43d19bf336462f4db257d06f2ef4548f4f6bca6cf482213c9a195ae4034228",
+  "operational_status": "executed_and_persisted",
+  "errors": [],
+  "commands": [
+    {
+      "argv": [
+        "/Users/rodrigodevellis/dados_vs/.venv/bin/python",
+        "-c",
+        "import json,sys; from importlib import metadata; print(json.dumps({'executable':sys.executable,'prefix':sys.prefix,'base_prefix':sys.base_prefix,'python':sys.version,'dependencies':{n:metadata.version(n) for n in ('pytest','PyMuPDF')}}))"
+      ],
+      "cwd": "/Users/rodrigodevellis/dados_vs",
+      "started_utc": "2026-10-17T06:40:48.198557+00:00",
+      "finished_utc": "2026-10-17T06:40:48.432660+00:00",
+      "returncode": 0,
+      "expected_returncodes": [
+        0
+      ],
+      "output": "00-ambiente.log",
+      "env_overrides": {
+        "PYTHONPATH": "/Users/rodrigodevellis/dados_vs/src:",
+        "PYTEST_DISABLE_PLUGIN_AUTOLOAD": "1"
+      },
+      "removed_env_keys": [
+        "PYTEST_ADDOPTS"
+      ]
+    },
+    {
+      "argv": [
+        "/Users/rodrigodevellis/dados_vs/.venv/bin/python",
+        "-m",
+        "pytest",
+        "--collect-only",
+        "-q",
+        "--color=no"
+      ],
+      "cwd": "/Users/rodrigodevellis/dados_vs",
+      "started_utc": "2026-10-17T06:40:48.433517+00:00",
+      "finished_utc": "2026-10-17T06:40:49.549258+00:00",
+      "returncode": 0,
+      "expected_returncodes": [
+        0
+      ],
+      "output": "01-coleta.log",
+      "env_overrides": {
+        "PYTHONPATH": "/Users/rodrigodevellis/dados_vs/src:",
+        "PYTEST_DISABLE_PLUGIN_AUTOLOAD": "1"
+      },
+      "removed_env_keys": [
+        "PYTEST_ADDOPTS"
+      ]
+    },
+    {
+      "argv": [
+        "/Users/rodrigodevellis/dados_vs/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-vv",
+        "--color=no",
+        "--junitxml",
+        "/Users/rodrigodevellis/dados_vs/execution_evidence/tarefa-003/integracao-corrigida-20261017T064047989475Z/direcionados.xml",
+        "tests/test_tarefa_003.py"
+      ],
+      "cwd": "/Users/rodrigodevellis/dados_vs",
+      "started_utc": "2026-10-17T06:40:49.549964+00:00",
+      "finished_utc": "2026-10-17T06:40:51.468542+00:00",
+      "returncode": 0,
+      "expected_returncodes": [
+        0
+      ],
+      "output": "02-direcionados.log",
+      "env_overrides": {
+        "PYTHONPATH": "/Users/rodrigodevellis/dados_vs/src:",
+        "PYTEST_DISABLE_PLUGIN_AUTOLOAD": "1"
+      },
+      "removed_env_keys": [
+        "PYTEST_ADDOPTS"
+      ]
+    },
+    {
+      "argv": [
+        "/Users/rodrigodevellis/dados_vs/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-vv",
+        "--color=no",
+        "--junitxml",
+        "/Users/rodrigodevellis/dados_vs/execution_evidence/tarefa-003/integracao-corrigida-20261017T064047989475Z/suite-completa.xml"
+      ],
+      "cwd": "/Users/rodrigodevellis/dados_vs",
+      "started_utc": "2026-10-17T06:40:51.469295+00:00",
+      "finished_utc": "2026-10-17T06:41:07.035023+00:00",
+      "returncode": 0,
+      "expected_returncodes": [
+        0
+      ],
+      "output": "03-suite-completa.log",
+      "env_overrides": {
+        "PYTHONPATH": "/Users/rodrigodevellis/dados_vs/src:",
+        "PYTEST_DISABLE_PLUGIN_AUTOLOAD": "1"
+      },
+      "removed_env_keys": [
+        "PYTEST_ADDOPTS"
+      ]
+    },
+    {
+      "argv": [
+        "/Users/rodrigodevellis/dados_vs/.venv/bin/python",
+        "-m",
+        "corpus_documental",
+        "validate",
+        "/Users/rodrigodevellis/dados_vs/corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3"
+      ],
+      "cwd": "/Users/rodrigodevellis/dados_vs",
+      "started_utc": "2026-10-17T06:41:07.036159+00:00",
+      "finished_utc": "2026-10-17T06:41:08.149761+00:00",
+      "returncode": 0,
+      "expected_returncodes": [
+        0
+      ],
+      "output": "04-validate.log",
+      "env_overrides": {
+        "PYTHONPATH": "/Users/rodrigodevellis/dados_vs/src:",
+        "PYTEST_DISABLE_PLUGIN_AUTOLOAD": "1"
+      },
+      "removed_env_keys": [
+        "PYTEST_ADDOPTS"
+      ]
+    },
+    {
+      "argv": [
+        "/Users/rodrigodevellis/dados_vs/.venv/bin/python",
+        "-m",
+        "corpus_documental",
+        "check-ready",
+        "/Users/rodrigodevellis/dados_vs/corpora/corpora/story-capitulo-1-revisao-documental-v0.2.3"
+      ],
+      "cwd": "/Users/rodrigodevellis/dados_vs",
+      "started_utc": "2026-10-17T06:41:08.150615+00:00",
+      "finished_utc": "2026-10-17T06:41:09.216528+00:00",
+      "returncode": 2,
+      "expected_returncodes": [
+        2
+      ],
+      "output": "05-check-ready.log",
+      "env_overrides": {
+        "PYTHONPATH": "/Users/rodrigodevellis/dados_vs/src:",
+        "PYTEST_DISABLE_PLUGIN_AUTOLOAD": "1"
+      },
+      "removed_env_keys": [
+        "PYTEST_ADDOPTS"
+      ]
+    }
+  ],
+  "runtime": {
+    "executable": "/Users/rodrigodevellis/dados_vs/.venv/bin/python",
+    "prefix": "/Users/rodrigodevellis/dados_vs/.venv",
+    "base_prefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+    "python": "3.12.10 (v3.12.10:0cc81280367, Apr  8 2025, 08:47:00) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "dependencies": {
+      "pytest": "8.4.2",
+      "PyMuPDF": "1.26.7"
+    }
+  },
+  "target_tests": {
+    "collected": 11,
+    "passed": 11,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "full_suite": {
+    "collected": 101,
+    "passed": 101,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "documentary_status": "review_required",
+  "chunking_gate": {
+    "allowed": false,
+    "required_state": "approved",
+    "blocking_error_count": 0,
+    "pending_review_count": 12,
+    "reason": "Documentary blockers or unsafe cases remain unresolved."
+  },
+  "all_tests_passed_without_skips": true,
+  "human_approval_granted": false,
+  "task_004_started": false,
+  "corpus_unchanged": true,
+  "finished_utc": "2026-10-17T06:41:09.364727+00:00"
+}

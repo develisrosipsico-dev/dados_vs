@@ -1,0 +1,35 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.10, pytest-8.4.2, pluggy-1.6.0 -- /Users/rodrigodevellis/dados_vs/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/rodrigodevellis/dados_vs
+configfile: pyproject.toml
+collecting ... collected 11 items
+
+tests/test_tarefa_003.py::test_pdf_integrity_and_hash PASSED             [  9%]
+tests/test_tarefa_003.py::test_corpus_version_and_metadata PASSED        [ 18%]
+tests/test_tarefa_003.py::test_section_node_hierarchy PASSED             [ 27%]
+tests/test_tarefa_003.py::test_section_contains_exactly_14_paragraphs PASSED [ 36%]
+tests/test_tarefa_003.py::test_paragraphs_global_order_sequence_and_lookup PASSED [ 45%]
+tests/test_tarefa_003.py::test_paragraphs_chain_navigation_and_child_boundary PASSED [ 54%]
+tests/test_tarefa_003.py::test_source_spans_reconstruct_text_raw PASSED  [ 63%]
+tests/test_tarefa_003.py::test_normalization_map_effective_validation PASSED [ 72%]
+tests/test_tarefa_003.py::test_block_quotes_and_references PASSED        [ 81%]
+tests/test_tarefa_003.py::test_documentary_gate_and_pending_reviews PASSED [ 90%]
+tests/test_tarefa_003.py::test_historical_review_correspondence PASSED   [100%]
+
+=============================== warnings summary ===============================
+<frozen importlib._bootstrap>:488
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute
+
+<frozen importlib._bootstrap>:488
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute
+
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type swigvarlink has no __module__ attribute
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: /Users/rodrigodevellis/dados_vs/execution_evidence/tarefa-003/integracao-corrigida-20261017T064047989475Z/direcionados.xml -
+======================== 11 passed, 5 warnings in 1.30s ========================
+sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute
