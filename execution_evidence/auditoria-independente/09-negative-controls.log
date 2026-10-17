@@ -1,0 +1,25 @@
+{
+  "scope": "Somente cópias em memória; nenhum arquivo do corpus foi alterado.",
+  "controls": [
+    {
+      "mutation": "forward_link",
+      "original_rejected": false,
+      "corrected_rejected": true
+    },
+    {
+      "mutation": "reverse_link",
+      "original_rejected": false,
+      "corrected_rejected": true
+    },
+    {
+      "mutation": "text_ownership",
+      "original_rejected": false,
+      "corrected_rejected": true
+    },
+    {
+      "mutation": "pending_status",
+      "original_rejected": false,
+      "corrected_rejected": true
+    }
+  ]
+}
