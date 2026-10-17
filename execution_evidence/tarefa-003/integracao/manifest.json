@@ -1,0 +1,10 @@
+{
+  "commands.log": {
+    "size": 2499,
+    "sha256": "609609377c7625db8d22a30b21686a18f237b1bcab8e303fc02b01e12a8e3d54"
+  },
+  "tests.log": {
+    "size": 6511,
+    "sha256": "6542ccba8f2404888998e7b2a717ac07df4c0f5d257690b05a6e0e714b982044"
+  }
+}
